@@ -25,11 +25,11 @@ function mountGoogleAnalytics(id: string) {
 
   analyticsScript.src = `https://www.googletagmanager.com/gtag/js?id=${id}`
 
-  document.body.appendChild(analyticsScript)
+  // document.body.appendChild(analyticsScript)
 }
 
 export default function ({ id }: { id: string }) {
   // eslint-disable-next-line node/prefer-global/process
-  if (process.env.NODE_ENV === 'production' && id && typeof window !== 'undefined')
-    mountGoogleAnalytics(id)
+  // if (process.env.NODE_ENV === 'production' && id && typeof window !== 'undefined')
+  //   mountGoogleAnalytics(id)
 }

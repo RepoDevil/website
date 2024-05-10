@@ -21,8 +21,8 @@ import generateFeed from './config/hooks/generateFeed'
 // Allows generation of RSS feed
 import generateOgImages from './config/hooks/generateOgImages'
 
-const title = 'Mihon'
-const description = 'Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.'
+const title = 'Himitsu'
+const description = 'A secret so good that even the name is banned.'
 
 const env = loadEnv('', process.cwd())
 const hostname: string = env.VITE_HOSTNAME || 'http://localhost:4173'

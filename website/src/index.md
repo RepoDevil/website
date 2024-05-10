@@ -3,11 +3,11 @@ title: Home
 layout: home
 
 hero:
-  name: Mihon
-  text: Full-featured reader
-  tagline: Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.
+  name: Himitsu
+  text: Dantotsu Fork
+  tagline: A secret so good that even the name is banned.
   image:
-    alt: Mihon Library Tab Dark
+    alt: Himitsu Library Tab Dark
     light: /home/phone.light.webp
     dark: /home/phone.dark.webp
   actions:
@@ -18,7 +18,7 @@ hero:
       text: Download
       link: /download/
 
-customMetaTitle: Mihon
+customMetaTitle: Himitsu
 
 features:
   - title: Tracking

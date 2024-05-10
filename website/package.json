@@ -1,16 +1,16 @@
 {
-  "name": "mihon-website",
+  "name": "himitsu-website",
   "type": "module",
   "version": "3.0.0",
   "private": true,
-  "description": "Official website for the Mihon app.",
+  "description": "Official website for the Himitsu app.",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mihonapp/website.git"
+    "url": "git+https://github.com/repodevil/himitsu-website.git"
   },
   "bugs": {
-    "url": "https://github.com/mihonapp/website/issues"
+    "url": "https://github.com/repodevil/himitsu-website/issues"
   },
   "engines": {
     "node": ">=20",
