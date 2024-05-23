@@ -1,1 +1,1 @@
-export const GITHUB_EXTENSION_JSON = 'https://raw.githubusercontent.com/aniyomiorg/aniyomi-extensions/repo/index.json'
+export const GITHUB_EXTENSION_JSON = 'https://raw.githubusercontent.com/suwayomi/tachiyomi-extension/repo/index.min.json'
