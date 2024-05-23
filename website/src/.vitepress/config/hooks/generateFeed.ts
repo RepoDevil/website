@@ -12,7 +12,7 @@ async function generateFeed(config: SiteConfig, hostname: string) {
     language: 'en',
     image: `${hostname}/img/logo.png`,
     favicon: `${hostname}/favicon.ico`,
-    copyright: `Copyright © ${new Date().getFullYear()} Mihon App`,
+    copyright: `Copyright © ${new Date().getFullYear()} Himitsu App`,
   })
   const json: Item[] = []
 

@@ -4,7 +4,6 @@ layout: home
 
 hero:
   name: Himitsu
-  text: Dantotsu Fork
   tagline: A secret so good that even the name is banned.
   image:
     alt: Himitsu Library Tab Dark

@@ -1,6 +1,6 @@
 ---
 title: Privacy policy
-description: Privacy Policy that explains how Mihon collects, uses, and protects users' personal information.
+description: Privacy Policy that explains how Himitsu collects, uses, and protects users' personal information.
 lastUpdated: false
 editLink: false
 ---

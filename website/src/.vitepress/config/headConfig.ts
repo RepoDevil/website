@@ -40,16 +40,13 @@ const headConfig: HeadConfig[] = [
     },
   ],
 
-  ['meta', { name: 'twitter:card', content: 'summary' }],
-  ['meta', { name: 'twitter:site', content: '@mihonapp' }],
-  ['meta', { name: 'twitter:creator', content: '@mihonapp' }],
 
-  ['meta', { property: 'og:site_name', content: 'Mihon' }],
+  ['meta', { property: 'og:site_name', content: 'Himitsu' }],
   [
     'meta',
     {
       property: 'og:description',
-      content: 'Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.',
+      content: 'The Best Anime & Manga app for Android.',
     },
   ],
   ['meta', { property: 'og:locale', content: 'en_US' }],
