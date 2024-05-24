@@ -122,10 +122,6 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           text: 'Reader settings',
           link: '/docs/guides/reader-settings',
         },
-        {
-          text: 'Shizuku',
-          link: '/docs/guides/shizuku',
-        },
       ],
     },
   ]
