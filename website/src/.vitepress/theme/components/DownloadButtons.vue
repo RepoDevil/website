@@ -13,7 +13,7 @@ const downloadInformation = computed(() => ({
   stable: {
     tagName: release.stable.tag_name ?? '00000000',
     asset: (release.stable.assets ?? [])
-      .find(a => /^Himitsu-\[A-Za-z0-9]+\-google-universal-matagi.apk/.test(a.name)),
+      .find(a => /^Himitsu-[A-Za-z0-9]+-google-universal-matagi.apk/.test(a.name)),
   },
 }))
 
