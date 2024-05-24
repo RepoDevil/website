@@ -1,14 +1,14 @@
 ---
 title: Dantotsu
 titleTemplate: false
-description: original design, original features
+description: Saikou clone with a touch of Aniyomi
 
 layout: home
 pageClass: page-dantotsu
 
 hero:
   name: Dantotsu
-  tagline: Original Design & Original Features
+  tagline: Saikou clone with a touch of Aniyomi
   image: /forks/logo-dantotsu.webp
   actions:
     - theme: brand
@@ -25,10 +25,10 @@ features:
     details: Watch anime and read manga and light novels (Ad-Free)
     icon: 👑
   - title: A Big Community
-    details: A large community equals many ideas, something with which dantotsu is not far behind
+    details: A large community equals many ideas
     icon: 👪
-  - title: The Real One
-    details: Himitsu is fork of Dantotsu
+  - title: The "Upstream" Project
+    details: Himitsu is a fork of Dantotsu
     icon: 🔖
 
 theme: "#0952AF"
@@ -46,7 +46,7 @@ const members = [
   {
     avatar: "https://www.github.com/rebelonion.png",
     name: "rebelonion",
-    title: "Creator",
+    title: "Maintainer",
     links: [
       { icon: "github", link: "https://github.com/rebelonion" }
     ]
