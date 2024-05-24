@@ -82,16 +82,11 @@ or [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.
 This section explores some extra details regarding [forks](/forks/).
 :::
 
-All **Mihon** (and **Tachiyomi**) [forks](/forks/) support the `.tachibk`/`.proto.gz` format to backup/restore your library.
+All **Himitsu** (and **Dantotsu**) [forks](/forks/) support the `.ani`/`.sani` format to backup/restore your library.
 
 In addition, some forks have specific limitations regarding backup restoration:
 
 - All forks have fork-specific settings and changes that might be saved in Backups.
-  Such settings are not restored in **Mihon** and will get lost when creating a new backup.
-  > For Example: [TachiyomiSY](/forks/TachiyomiSY/) has the option to backup/restore saved searches.
+  Such settings are not restored in **Himitsu** and will get lost when creating a new backup.
 
-  These will **NOT** be restored to **Mihon** or its forks.
-- Only [TachiyomiAZ](/forks/TachiyomiAZ/) supports creating/restoring both legacy `.json` backups and `.proto.gz` backups.
-  > Users are recommended to update their `.json` backups to use the improved and efficient `.tachibk`/`.proto.gz` backups.
-
-Be aware of these limitations when dealing with backups in different **Mihon** and **Tachiyomi** forks.
+Be aware of these limitations when dealing with backups in different **Himitsu** and **Dantotsu** forks.
