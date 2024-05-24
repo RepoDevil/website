@@ -21,4 +21,3 @@ Three installer options are available (in <nav to="advanced">):
   > This is the default for **MIUI** (i.e. Xiaomi devices).
 * **PackageInstaller**: The primary installer option with additional features dependent on the Android version.
   > For instance, it can bypass user prompts when updating extensions on **Android 12**.
-* **Shizuku**: Refer to the [Shizuku guide](/docs/guides/shizuku) for details on **Shizuku**'s functionality.
