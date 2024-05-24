@@ -1,6 +1,6 @@
 ---
 title: Endorsed Forks
-description: Forks are alternative versions of Mihon with exclusive features.
+description: Forks are alternative versions of Himitsu with exclusive features.
 lastUpdated: false
 editLink: false
 prev: false
@@ -8,18 +8,14 @@ next: false
 pageClass: forks
 
 features:
-  - title: TachiyomiJ2K
-    details: New design approach along with several other enhancements
-    icon: <img src="/forks/logo-j2k.webp" alt="TachiyomiJ2K Logo" height="32" width="32">
-    link: /forks/TachiyomiJ2K/
-  - title: TachiyomiSY
-    details: Keeping up-to-date with Tachiyomi while also adding exclusive features
-    icon: <img src="/forks/logo-sy.webp" alt="TachiyomiSY Logo" height="32" width="32">
-    link: /forks/TachiyomiSY/
-  - title: TachiyomiAZ
-    details: Keeps the old design of Tachiyomi with hamburger menu.
-    icon: <img src="/forks/logo-az.webp" alt="TachiyomiAZ Logo" height="32" width="32">
-    link: /forks/TachiyomiAZ/
+  - title: Dantotsu
+    details: Anilist client based on Saikou
+    icon: <img src="/forks/logo-dantotsu.webp" alt="Dantotsu Logo" height="32" width="32">
+    link: /forks/dantotsu/
+  - title: Awery
+    details: Anilist client based on Dantotsu which is based on Saikou
+    icon: <img src="/forks/logo-awery.webp" alt="Awery Logo" height="32" width="32">
+    link: /forks/awery/
 ---
 
 <script setup>
@@ -28,6 +24,6 @@ import { VPHomeFeatures } from "vitepress/theme"
 
 # Endorsed Forks
 
-Forks are alternative versions of Mihon with exclusive features.
+Forks are alternative versions of Himitsu with exclusive features or Based in.
 
 <VPHomeFeatures />

@@ -40,7 +40,6 @@ const headConfig: HeadConfig[] = [
     },
   ],
 
-
   ['meta', { property: 'og:site_name', content: 'Himitsu' }],
   [
     'meta',

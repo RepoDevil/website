@@ -9,7 +9,7 @@ Find out how to help build the app.
 ## Code
 Know how to code and want to improve something or you generally want to support the creation of the app?
 
-[![mihonapp/mihon - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=mihonapp&repo=mihon&bg_color=f6f6f7&title_color=0877d2&icon_color=0877d2&border_radius=8&hide_border=false#light "mihonapp/mihon - GitHub" =400x120)](https://github.com/mihonapp/mihon)
+[![repodevil/himitsu - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=mihonapp&repo=mihon&bg_color=f6f6f7&title_color=0877d2&icon_color=0877d2&border_radius=8&hide_border=false#light "mihonapp/mihon - GitHub" =400x120)](https://github.com/mihonapp/mihon)
 
 [![mihonapp/website - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=mihonapp&repo=website&bg_color=f6f6f7&title_color=0877d2&icon_color=0877d2&border_radius=8&hide_border=false#light "mihonapp/website - GitHub" =400x120)](https://github.com/mihonapp/website)
 
