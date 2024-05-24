@@ -22,6 +22,7 @@ For a better experience, while using our Service, we may require you to provide 
 The information that we request will be retained by us and used as described in this privacy policy.
 
 Links to the privacy policy of third-party service providers used by the app:
+* [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
 * [Sentry](https://sentry.io/privacy/)
 
 ### Log Data
@@ -56,4 +57,4 @@ The current iteration of this policy is effective as of December 15, 2021.
 
 ## Contact Us
 
-If you have any questions or suggestions about this Privacy Policy, do not hesitate to reach out to us on [our Discord server](https://discord.gg/vnrhgrt ).
+If you have any questions or suggestions about this Privacy Policy, do not hesitate to reach out to us on [our Discord server](https://discord.gg/vnrhgrt).

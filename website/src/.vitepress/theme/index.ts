@@ -14,6 +14,7 @@ import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 // Import icon components
 import { IconBugReport, IconDownload, IconNewspaperVariant } from '@iconify-prerendered/vue-mdi'
 
+import analytics from './plugin/analytics'
 import Layout from './Layout.vue'
 
 export default {
@@ -24,6 +25,7 @@ export default {
     app.component('IconDownload', IconDownload)
     app.component('IconNewspaperVariant', IconNewspaperVariant)
     app.component('IconBugReport', IconBugReport)
+    analytics({ id: 'G-JVHPS7VNJ6' })
   },
   Layout,
 }
