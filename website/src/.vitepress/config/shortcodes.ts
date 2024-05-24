@@ -38,7 +38,7 @@ const navigationMappings: Record<string, Navigation> = {
 
   // Browse menu
   'sources': { name: 'Sources', dependsOn: 'main_browse' },
-  'extensions': { name: 'Extensions', dependsOn: 'settings' },
+  'extensions': { name: 'Extensions', dependsOn: 'main_browse' },
   'extensions1': { name: 'Extensions', dependsOn: 'settings1' },
   'migrate': { name: 'Migrate', dependsOn: 'main_browse' },
 
