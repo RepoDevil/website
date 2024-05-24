@@ -8,12 +8,12 @@ const downloadInformation = computed(() => ({
   beta: {
     tagName: release.beta.tag_name ?? 'r0000',
     asset: (release.beta.assets ?? [])
-      .find(a => /^mihon-r\d{4,}.apk/.test(a.name)),
+      .find(a => /^Himitsu-\d{4,}.apk/.test(a.name)),
   },
   stable: {
     tagName: release.stable.tag_name ?? 'v0.00.0',
     asset: (release.stable.assets ?? [])
-      .find(a => /^mihon-v\d+\.\d+\.\d+.apk/.test(a.name)),
+      .find(a => /^Himitsu-\d+\.\d+\.\d+.apk/.test(a.name)),
   },
 }))
 
@@ -41,7 +41,7 @@ function handleAnalytics(type: 'beta' | 'stable') {
         Unsupported operating system
       </p>
       <p>
-        <strong>Mihon</strong> is an <strong>Android app</strong> only.
+        <strong>Himitsu</strong> is an <strong>Android app</strong> only.
         Use an <strong>Android device</strong> to download and install the app.
       </p>
     </div>
@@ -51,7 +51,7 @@ function handleAnalytics(type: 'beta' | 'stable') {
       </p>
       <p>
         Any app for any operating systems other than Android called
-        <strong>Mihon</strong> is not affiliated with this project.
+        <strong>Himitsu</strong> is not affiliated with this project.
       </p>
       <blockquote>
         For more information, read the
@@ -66,7 +66,7 @@ function handleAnalytics(type: 'beta' | 'stable') {
         @click="handleAnalytics('stable')"
       >
         <IconDownload />
-        <span class="text">Mihon</span>
+        <span class="text">Himitsu</span>
         <span class="version">{{ downloadInformation.stable.tagName }}</span>
       </a>
       <a
@@ -76,7 +76,7 @@ function handleAnalytics(type: 'beta' | 'stable') {
         @click="handleAnalytics('beta')"
       >
         <IconBugReport />
-        <span class="text">Mihon Beta</span>
+        <span class="text">Himitsu Beta</span>
         <span class="version">{{ downloadInformation.beta.tagName }}</span>
       </a>
     </div>
