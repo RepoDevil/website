@@ -18,7 +18,7 @@ const themeConfig: DefaultTheme.Config = {
   socialLinks: [
     {
       icon: 'github',
-      link: 'https://github.com/RepoDevil/Himitsu',
+      link: 'https://github.com/RepoDevil/Himitsu-Archive',
       ariaLabel: 'Project GitHub',
     },
     {
@@ -48,7 +48,7 @@ const themeConfig: DefaultTheme.Config = {
 
   footer: {
     message: '<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Open-source Apache Licensed</a> <span class="divider">|</span> <a href="/privacy/">Privacy policy</a>',
-    copyright: `Copyright © ${new Date().getFullYear()} Himitsu App`,
+    copyright: `Copyright © ${new Date().getFullYear()} Himitsu`,
   },
 
   editLink: {
