@@ -1,6 +1,6 @@
 ---
 title: News
-description: Collection of news and announcements about Mihon.
+description: Collection of news and announcements about Himitsu.
 lastUpdated: false
 editLink: false
 prev: false
@@ -14,7 +14,7 @@ import RssLink from "@theme/components/RssLink.vue";
 
 # News
 
-Collection of news and announcements about Mihon.
+Collection of news and announcements about Himitsu.
 
 Also available as <RssLink />.
 
