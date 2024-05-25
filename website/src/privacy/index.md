@@ -10,6 +10,8 @@ editLink: false
 Himitsu is an Open Source app.
 This SERVICE is provided at no cost and is intended for use as is.
 
+Himitsu is forked from Dantotsu and, as such, is not liable for any content provided or available as a result of this relationship.
+
 This page details our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
 
 If you choose to use our Service, then you agree to the collection and use of information in relation to this policy.
