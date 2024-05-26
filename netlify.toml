@@ -12,8 +12,7 @@
   command = "VITE_HOSTNAME=$DEPLOY_PRIME_URL pnpm test"
 
 [[redirects]]
-  from = "/index.md"
-  to = "/locales/es_ES/index.md"
+  from = "/locales/es_ES/index.md"
+  to = "/index.md"
   status = 200
   force = true
-  conditions = {Language = ["es_ES"]}
