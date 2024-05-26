@@ -24,7 +24,7 @@ export default defineLoader({
     const { data: beta } = await octokit.repos.getLatestRelease({
       owner: 'RepoDevil',
       repo: 'TsubakiBuilder',
-    })[0]
+    })
 
     return { stable, beta }
   },
