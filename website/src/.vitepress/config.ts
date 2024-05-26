@@ -28,6 +28,17 @@ const env = loadEnv('', process.cwd())
 const hostname: string = env.VITE_HOSTNAME || 'http://localhost:4173'
 
 export default defineConfig({
+  locales: {
+    root: {
+      label: 'English (US)',
+      lang: 'en',
+    },
+    es_ES: {
+      label: 'Spanish (ES)',
+      lang: 'es_ES',
+      link: '/es_ES/',
+    }
+  },
   outDir: '../dist',
   lastUpdated: true,
   cleanUrls: true,
