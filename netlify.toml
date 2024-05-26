@@ -10,8 +10,3 @@
 
 [context.deploy-preview]
   command = "VITE_HOSTNAME=$DEPLOY_PRIME_URL pnpm test"
-
-[[redirects]]
-  from = "/locales/es_ES/"
-  to = "/"
-  status = 200
