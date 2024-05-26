@@ -16,4 +16,4 @@
   to = "/locales/es_ES/index.md"
   status = 200
   force = true
-  conditions = {Language = ["es"]}
+  conditions = {Language = ["es_ES"]}
