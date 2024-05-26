@@ -36,7 +36,7 @@ export default defineConfig({
     es_ES: {
       label: 'Spanish (ES)',
       lang: 'es_ES',
-      link: '/es_ES/',
+      link: 'locales/es_ES/',
     }
   },
   outDir: '../dist',
