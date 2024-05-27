@@ -19,8 +19,13 @@ const themeConfig: DefaultTheme.Config = {
 
   socialLinks: [
     {
+      icon: 'gitlab',
+      link: 'https://gitlab.com/RepoDevil/Himitsu',
+      ariaLabel: 'Project GitLab',
+    },
+    {
       icon: 'github',
-      link: 'https://github.com/RepoDevil/Himitsu-Archive',
+      link: 'https://github.com/RepoDevil/Himitsu',
       ariaLabel: 'Project GitHub',
     },
     {
