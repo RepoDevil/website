@@ -17,6 +17,7 @@ const themeConfig: DefaultTheme.Config = {
 
   outline: [2, 3],
 
+  // Some icons from https://github.com/vuejs/vitepress/issues/1214
   socialLinks: [
     {
       icon: {
