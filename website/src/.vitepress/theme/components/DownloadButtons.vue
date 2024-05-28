@@ -77,11 +77,11 @@ function handleAnalytics(type: 'beta' | 'stable') {
       >
         <IconBugReport />
         <span class="text">Himitsu</span>
-        <span class="version">#{{ downloadInformation.beta.tagName }}㊙</span>
+        <span class="version">#{{ downloadInformation.beta.tagName }} ㊙</span>
       </a>
     </div>
     <span class="version-disclaimer">
-      Requires <strong>Android 8.0</strong> or higher.
+      Requires <strong>Android 5.0</strong> or higher.
     </span>
   </div>
 </template>
