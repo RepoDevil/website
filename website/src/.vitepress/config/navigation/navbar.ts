@@ -3,7 +3,7 @@ import type { DefaultTheme } from 'vitepress'
 const nav: Record<string, DefaultTheme.NavItem[]> = {
   '/': [
     {
-      text: 'Get v{app_version}',
+      text: 'Get {app_version}',
       activeMatch: '^/*?(download|changelogs)/*?$',
       items: [
         { text: 'Download', link: '/download/' },
