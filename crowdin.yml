@@ -1,0 +1,3 @@
+files:
+  - source: /website/src/index.md
+    translation: /website/src/%two_letters_code%/%original_file_name%
