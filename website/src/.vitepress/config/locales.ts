@@ -18,6 +18,27 @@ const locales = {
         sidebar: {
           '/docs/': [
             {
+              items: [
+                {
+                  text: 'Download',
+                  link: '/download/',
+                },
+                {
+                  text: 'Changelogs',
+                  link: '/changelogs/',
+                },
+                {
+                  text: 'Forks',
+                  link: '/forks/',
+                },
+                {
+                  text: 'Contribute',
+                  link: '/docs/contribute',
+                },
+              ],
+            },
+            {
+            
               text: 'Guides',
               items: [
                 { text: 'Introduction', link: '/docs/guides/getting-started' },
@@ -54,135 +75,209 @@ const locales = {
         },
       },
     },
-    ar: {
-      label: 'Arabic',
-      lang: 'ar',
-      themeConfig: {
-        nav: [
-          {
-            text: 'احصل على #{app_version}',
-            items: [
-              { text: 'تحميل', link: '/تحميل/' },
-              { text: 'سجل التغييرات', link: '/تغييرات/' },
-            ],
-          },
-          { text: 'المستندات', link: '/مستندات/دلائل/البداية' },
-          { text: 'الأخبار', link: '/أخبار/' },
-        ],
-        sidebar: {
-          '/مستندات/': [
-            {
-              text: 'الدلائل',
-              items: [
-                { text: 'مقدمة', link: '/مستندات/دلائل/البداية' },
-              ],
-            },
+    label: 'Afrikaans',
+    lang: 'af',
+    themeConfig: {
+      nav: [
+        {
+          text: 'Kry #{app_version}',
+          items: [
+            { text: 'Aflaai', link: '/af/download/' },
+            { text: 'Veranderingsnotas', link: '/af/changelogs/' },
           ],
         },
-      },
-    },
-    as: {
-      label: 'Assamese',
-      lang: 'as',
-      themeConfig: {
-        nav: [
-          {
-            text: '#{app_version} পাওঁ',
-            items: [
-              { text: 'ডাউনলোড', link: '/ডাউনলোড/' },
-              { text: 'পরিবর্তনসূচী', link: '/পরিবর্তনসূচী/' },
-            ],
-          },
-          { text: 'ডকুমেন্টেশন', link: '/ডকুমেন্টেশন/গাইডস/শুরু-হচ্ছে' },
-          { text: 'নিউজ', link: '/নিউজ/' },
-        ],
-        sidebar: {
-          '/ডকুমেন্টেশন/': [
-            {
-              text: 'গাইডসমূহ',
-              items: [
-                { text: 'পরিচিতি', link: '/ডকুমেন্টেশন/গাইডস/শুরু-হচ্ছে' },
-              ],
-            },
-          ],
-        },
-      },
-    },
-    ca: {
-      label: 'Catalan',
-      lang: 'ca',
-      themeConfig: {
-        nav: [
-          {
-            text: 'Obtén #{app_version}',
-            items: [
-              { text: 'Baixa', link: '/baixa/' },
-              { text: 'Canvis', link: '/canvis/' },
-            ],
-          },
-          { text: 'Documentació', link: '/documentacio/guies/inici' },
-          { text: 'Notícies', link: '/noticies/' },
-        ],
-        sidebar: {
-          '/documentacio/': [
-            {
-              text: 'Guies',
-              items: [
-                { text: 'Introducció', link: '/documentacio/guies/inici' },
-              ],
-            },
-          ],
-        },
-      },
-    },
-    zhCN: {
-      label: 'Chinese Simplified',
-      lang: 'zh-CN',
-      themeConfig: {
-        nav: [
-          {
-            text: '获取 #{app_version}',
-            items: [
-              { text: '下载', link: '/下载/' },
-              { text: '更新日志', link: '/更新日志/' },
-            ],
-          },
-          { text: '文档', link: '/文档/指南/入门' },
-          { text: '新闻', link: '/新闻/' },
-        ],
-        sidebar: {
-          '/文档/': [
-            {
-              text: '指南',
-              items: [
-                { text: '介绍', link: '/文档/指南/入门' },
-              ],
-            },
-          ],
-        },
-      },
-    },
-    zhTW: {
-      label: 'Chinese Traditional',
-      lang: 'zh-TW',
-      themeConfig: {
-        nav: [
-          {
-            text: '獲取 #{app_version}',
-            items: [
-              { text: '下載', link: '/下載/' },
-              {  text: '更新日誌', link: '/更新日誌/' },
-          ],
-        },
-        { text: '文檔', link: '/文檔/指南/入門' },
-        { text: '新聞', link: '/新聞/' },
+        { text: 'Doks', link: '/af/docs/guides/getting-started' },
+        { text: 'Nuus', link: '/af/news/' },
       ],
       sidebar: {
-        '/文檔/': [
+        '/af/docs/': [
+          {
+            items: [
+              { text: 'Aflaai', link: '/af/download/' },
+              { text: 'Veranderingsnotas', link: '/af/changelogs/' },
+              { text: 'Vurke', link: '/af/forks/' },
+              { text: 'Bydra', link: '/af/docs/contribute' },
+            ],
+          },
+          {
+            text: 'Gidse',
+            items: [
+              { text: 'Inleiding', link: '/af/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  ar: {
+    label: 'Arabic',
+    lang: 'ar',
+    themeConfig: {
+      nav: [
+        {
+          text: 'احصل على #{app_version}',
+          items: [
+            { text: 'تحميل', link: '/ar/download/' },
+            { text: 'سجل التغييرات', link: '/ar/changelogs/' },
+          ],
+        },
+        { text: 'المستندات', link: '/ar/docs/guides/getting-started' },
+        { text: 'أخبار', link: '/ar/news/' },
+      ],
+      sidebar: {
+        '/ar/docs/': [
+          {
+            items: [
+              { text: 'تحميل', link: '/ar/download/' },
+              { text: 'سجل التغييرات', link: '/ar/changelogs/' },
+              { text: 'فروكس', link: '/ar/forks/' },
+              { text: 'المساهمة', link: '/ar/docs/contribute' },
+            ],
+          },
+          {
+            text: 'الأدلة',
+            items: [
+              { text: 'مقدمة', link: '/ar/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  as: {
+    label: 'Assamese',
+    lang: 'as',
+    themeConfig: {
+      nav: [
+        {
+          text: '#{app_version} লাভ কৰক',
+          items: [
+            { text: 'ডাউনলোড', link: '/as/download/' },
+            { text: 'পৰিবৰ্তনসমূহ', link: '/as/changelogs/' },
+          ],
+        },
+        { text: 'ডকুমেণ্টস', link: '/as/docs/guides/getting-started' },
+        { text: 'সংবাদ', link: '/as/news/' },
+      ],
+      sidebar: {
+        '/as/docs/': [
+          {
+            items: [
+              { text: 'ডাউনলোড', link: '/as/download/' },
+              { text: 'পৰিবৰ্তনসমূহ', link: '/as/changelogs/' },
+              { text: 'ফর্কস', link: '/as/forks/' },
+              { text: 'অবদান', link: '/as/docs/contribute' },
+            ],
+          },
+          {
+            text: 'গাইডসমূহ',
+            items: [
+              { text: 'ভূমিকা', link: '/as/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  ca: {
+    label: 'Catalan',
+    lang: 'ca',
+    themeConfig: {
+      nav: [
+        {
+          text: 'Obtenir #{app_version}',
+          items: [
+            { text: 'Baixar', link: '/ca/download/' },
+            { text: 'Canvis', link: '/ca/changelogs/' },
+          ],
+        },
+        { text: 'Docs', link: '/ca/docs/guides/getting-started' },
+        { text: 'Notícies', link: '/ca/news/' },
+      ],
+      sidebar: {
+        '/ca/docs/': [
+          {
+            items: [
+              { text: 'Baixar', link: '/ca/download/' },
+              { text: 'Canvis', link: '/ca/changelogs/' },
+              { text: 'Bifurcacions', link: '/ca/forks/' },
+              { text: 'Contribuir', link: '/ca/docs/contribute' },
+            ],
+          },
+          {
+            text: 'Guies',
+            items: [
+              { text: 'Introducció', link: '/ca/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  zhCN: {
+    label: 'Chinese Simplified',
+    lang: 'zh-CN',
+    themeConfig: {
+      nav: [
+        {
+          text: '获取 #{app_version}',
+          items: [
+            { text: '下载', link: '/zh-CN/download/' },
+            { text: '更新日志', link: '/zh-CN/changelogs/' },
+          ],
+        },
+        { text: '文档',link: '/zh-CN/docs/guides/getting-started' },
+        { text: '新闻', link: '/zh-CN/news/' },
+      ],
+      sidebar: {
+        '/zh-CN/docs/': [
+          {
+            items: [
+              { text: '下载', link: '/zh-CN/download/' },
+              { text: '更新日志', link: '/zh-CN/changelogs/' },
+              { text: '分叉', link: '/zh-CN/forks/' },
+              { text: '贡献', link: '/zh-CN/docs/contribute' },
+            ],
+          },
           {
             text: '指南',
             items: [
-              { text: '介紹', link: '/文檔/指南/入門' },
+              { text: '介绍', link: '/zh-CN/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  zhTW: {
+    label: 'Chinese Traditional',
+    lang: 'zh-TW',
+    themeConfig: {
+      nav: [
+        {
+          text: '獲取 #{app_version}',
+          items: [
+            { text: '下載', link: '/zh-TW/download/' },
+            { text: '變更日誌', link: '/zh-TW/changelogs/' },
+          ],
+        },
+        { text: '文件', link: '/zh-TW/docs/guides/getting-started' },
+        { text: '新聞', link: '/zh-TW/news/' },
+      ],
+      sidebar: {
+        '/zh-TW/docs/': [
+          {
+            items: [
+              { text: '下載', link: '/zh-TW/download/' },
+              { text: '變更日誌', link: '/zh-TW/changelogs/' },
+              { text: '分叉', link: '/zh-TW/forks/' },
+              { text: '貢獻', link: '/zh-TW/docs/contribute' },
+            ],
+          },
+          {
+            text: '指南',
+            items: [
+              { text: '介紹', link: '/zh-TW/docs/guides/getting-started' },
             ],
           },
         ],
@@ -197,19 +292,27 @@ const locales = {
         {
           text: 'Získat #{app_version}',
           items: [
-            { text: 'Stáhnout', link: '/stáhnout/' },
-            { text: 'Změny', link: '/změny/' },
+            { text: 'Stáhnout', link: '/cs/download/' },
+            { text: 'Změny', link: '/cs/changelogs/' },
           ],
         },
-        { text: 'Dokumentace', link: '/dokumentace/průvodci/nástup' },
-        { text: 'Novinky', link: '/novinky/' },
+        { text: 'Dokumentace', link: '/cs/docs/guides/getting-started' },
+        { text: 'Novinky', link: '/cs/news/' },
       ],
       sidebar: {
-        '/dokumentace/': [
+        '/cs/docs/': [
+          {
+            items: [
+              { text: 'Stáhnout', link: '/cs/download/' },
+              { text: 'Změny', link: '/cs/changelogs/' },
+              { text: 'Forky', link: '/cs/forks/' },
+              { text: 'Přispět', link: '/cs/docs/contribute' },
+            ],
+          },
           {
             text: 'Průvodci',
             items: [
-              { text: 'Úvod', link: '/dokumentace/průvodci/nástup' },
+              { text: 'Úvod', link: '/cs/docs/guides/getting-started' },
             ],
           },
         ],
@@ -222,21 +325,29 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Få #{app_version}',
+          text: 'Hent #{app_version}',
           items: [
-            { text: 'Download', link: '/download/' },
-            { text: 'Ændringslog', link: '/ændringslog/' },
+            { text: 'Download', link: '/da/download/' },
+            { text: 'Ændringslog', link: '/da/changelogs/' },
           ],
         },
-        { text: 'Dokumentation', link: '/dokumentation/guider/komme-i-gang' },
-        { text: 'Nyheder', link: '/nyheder/' },
+        { text: 'Docs', link: '/da/docs/guides/getting-started' },
+        { text: 'Nyheder', link: '/da/news/' },
       ],
       sidebar: {
-        '/dokumentation/': [
+        '/da/docs/': [
+          {
+            items: [
+              { text: 'Download', link: '/da/download/' },
+              { text: 'Ændringslog', link: '/da/changelogs/' },
+              { text: 'Forgreninger', link: '/da/forks/' },
+              { text: 'Bidrag', link: '/da/docs/contribute' },
+            ],
+          },
           {
             text: 'Guider',
             items: [
-              { text: 'Introduktion', link: '/dokumentation/guider/komme-i-gang' },
+              { text: 'Introduktion', link: '/da/docs/guides/getting-started' },
             ],
           },
         ],
@@ -251,19 +362,27 @@ const locales = {
         {
           text: 'Krijg #{app_version}',
           items: [
-            { text: 'Download', link: '/downloaden/' },
-            { text: 'Wijzigingen', link: '/wijzigingen/' },
+            { text: 'Downloaden', link: '/nl/download/' },
+            { text: 'Wijzigingen', link: '/nl/changelogs/' },
           ],
         },
-        { text: 'Documentatie', link: '/documentatie/gidsen/aan-de-slag' },
-        { text: 'Nieuws', link: '/nieuws/' },
+        { text: 'Documentatie', link: '/nl/docs/guides/getting-started' },
+        { text: 'Nieuws', link: '/nl/news/' },
       ],
       sidebar: {
-        '/documentatie/': [
+        '/nl/docs/': [
+          {
+            items: [
+              { text: 'Downloaden', link: '/nl/download/' },
+              { text: 'Wijzigingen', link: '/nl/changelogs/' },
+              { text: 'Forks', link: '/nl/forks/' },
+              { text: 'Bijdragen', link: '/nl/docs/contribute' },
+            ],
+          },
           {
             text: 'Gidsen',
             items: [
-              { text: 'Inleiding', link: '/documentatie/gidsen/aan-de-slag' },
+              { text: 'Inleiding', link: '/nl/docs/guides/getting-started' },
             ],
           },
         ],
@@ -276,22 +395,30 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Hanki #{app_version}',
+          text: 'Hae #{app_version}',
           items: [
-            { text: 'Lataa', link: '/lataa/' },
-            { text: 'Muutokset', link: '/muutokset/' },
+            { text: 'Lataa', link: '/fi/download/' },
+            { text: 'Muutosloki', link: '/fi/changelogs/' },
           ],
         },
-        { text: 'Dokumentaatio', link: '/dokumentaatio/oppaat/aloittaminen' },
-        { text: 'Uutiset', link: '/uutiset/' },
+        { text: 'Dokumentaatio', link: '/fi/docs/guides/getting-started' },
+        { text: 'Uutiset', link: '/fi/news/' },
       ],
       sidebar: {
-        '/dokumentaatio/': [
+        '/fi/docs/': [
+          {
+            items: [
+              { text: 'Lataa', link: '/fi/download/' },
+              { text: 'Muutosloki', link: '/fi/changelogs/' },
+              { text: 'Haarat', link: '/fi/forks/' },
+              { text: 'Osallistu', link: '/fi/docs/contribute' },
+            ],
+          },
           {
             text: 'Oppaat',
             items: [
-              { text: 'Johdanto', link: '/dokumentaatio/oppaat/aloittaminen' },
-            ],
+              { text: 'Johdanto', link: '/fi/docs/guides/getting-started' },
+                ],
           },
         ],
       },
@@ -305,19 +432,27 @@ const locales = {
         {
           text: 'Obtenir #{app_version}',
           items: [
-            { text: 'Télécharger', link: '/telecharger/' },
-            { text: 'Journal des modifications', link: '/journal-des-modifications/' },
+            { text: 'Télécharger', link: '/fr/download/' },
+            { text: 'Changements', link: '/fr/changelogs/' },
           ],
         },
-        { text: 'Documentation', link: '/documentation/guides/premiers-pas' },
-        { text: 'Actualités', link: '/actualites/' },
+        { text: 'Docs', link: '/fr/docs/guides/getting-started' },
+        { text: 'Actualités', link: '/fr/news/' },
       ],
       sidebar: {
-        '/documentation/': [
+        '/fr/docs/': [
+          {
+            items: [
+              { text: 'Télécharger', link: '/fr/download/' },
+              { text: 'Changements', link: '/fr/changelogs/' },
+              { text: 'Forks', link: '/fr/forks/' },
+              { text: 'Contribuer', link: '/fr/docs/contribute' },
+            ],
+          },
           {
             text: 'Guides',
             items: [
-              { text: 'Introduction', link: '/documentation/guides/premiers-pas' },
+              { text: 'Introduction', link: '/fr/docs/guides/getting-started' },
             ],
           },
         ],
@@ -332,19 +467,27 @@ const locales = {
         {
           text: 'Hol #{app_version}',
           items: [
-            { text: 'Herunterladen', link: '/herunterladen/' },
-            { text: 'Änderungsprotokoll', link: '/änderungsprotokoll/' },
+            { text: 'Herunterladen', link: '/de/download/' },
+            { text: 'Änderungsprotokolle', link: '/de/changelogs/' },
           ],
         },
-        { text: 'Dokumentation', link: '/dokumentation/anleitungen/einstieg' },
-        { text: 'Nachrichten', link: '/nachrichten/' },
+        { text: 'Dokumentation', link: '/de/docs/guides/getting-started' },
+        { text: 'Nachrichten', link: '/de/news/' },
       ],
       sidebar: {
-        '/dokumentation/': [
+        '/de/docs/': [
+          {
+            items: [
+              { text: 'Herunterladen', link: '/de/download/' },
+              { text: 'Änderungsprotokolle', link: '/de/changelogs/' },
+              { text: 'Forks', link: '/de/forks/' },
+              { text: 'Mitwirken', link: '/de/docs/contribute' },
+            ],
+          },
           {
             text: 'Anleitungen',
             items: [
-              { text: 'Einführung', link: '/dokumentation/anleitungen/einstieg' },
+              { text: 'Einführung', link: '/de/docs/guides/getting-started' },
             ],
           },
         ],
@@ -357,21 +500,29 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Απόκτηση #{app_version}',
+          text: 'Λήψη #{app_version}',
           items: [
-            { text: 'Λήψη', link: '/ληψη/' },
-            { text: 'Αλλαγές', link: '/αλλαγες/' },
+            { text: 'Λήψη', link: '/el/download/' },
+            { text: 'Αλλαγές', link: '/el/changelogs/' },
           ],
         },
-        { text: 'Τεκμηρίωση', link: '/τεκμηρίωση/οδηγοί/εισαγωγή' },
-        { text: 'Νέα', link: '/νέα/' },
+        { text: 'Εγχειρίδια', link: '/el/docs/guides/getting-started' },
+        { text: 'Νέα', link: '/el/news/' },
       ],
       sidebar: {
-        '/τεκμηρίωση/': [
+        '/el/docs/': [
+          {
+            items: [
+              { text: 'Λήψη', link: '/el/download/' },
+              { text: 'Αλλαγές', link: '/el/changelogs/' },
+              { text: 'Παρακλάδες', link: '/el/forks/' },
+              { text: 'Συνεισφορά', link: '/el/docs/contribute' },
+            ],
+          },
           {
             text: 'Οδηγοί',
             items: [
-              { text: 'Εισαγωγή', link: '/τεκμηρίωση/οδηγοί/εισαγωγή' },
+              { text: 'Εισαγωγή', link: '/el/docs/guides/getting-started' },
             ],
           },
         ],
@@ -379,26 +530,34 @@ const locales = {
     },
   },
   he: {
-    label : 'Hebrew',
+    label: 'Hebrew',
     lang: 'he',
     themeConfig: {
       nav: [
         {
           text: 'קבל #{app_version}',
           items: [
-            { text: 'הורד', link: '/הורדה/' },
-            { text: 'יומן שינויים', link: '/יומן-שינויים/' },
+            { text: 'הורדה', link: '/he/download/' },
+            { text: 'יומני שינויים', link: '/he/changelogs/' },
           ],
         },
-        { text: 'תיעוד', link: '/תיעוד/מדריכים/התחלה' },
-        { text: 'חדשות', link: '/חדשות/' },
+        { text: 'מדריכים', link: '/he/docs/guides/getting-started' },
+        { text: 'חדשות', link: '/he/news/' },
       ],
       sidebar: {
-        '/תיעוד/': [
+        '/he/docs/': [
+          {
+            items: [
+              { text: 'הורדה', link: '/he/download/' },
+              { text: 'יומני שינויים', link: '/he/changelogs/' },
+              { text: 'סנכרונים', link: '/he/forks/' },
+              { text: 'תרומה', link: '/he/docs/contribute' },
+            ],
+          },
           {
             text: 'מדריכים',
             items: [
-              { text: 'הקדמה', link: '/תיעוד/מדריכים/התחלה' },
+              { text: 'מבוא', link: '/he/docs/guides/getting-started' },
             ],
           },
         ],
@@ -413,19 +572,27 @@ const locales = {
         {
           text: '#{app_version} प्राप्त करें',
           items: [
-            { text: 'डाउनलोड करें', link: '/डाउनलोड/' },
-            { text: 'परिवर्तन विवरण', link: '/परिवर्तन-विवरण/' },
+            { text: 'डाउनलोड करें', link: '/hi/download/' },
+            { text: 'परिवर्तन लेख', link: '/hi/changelogs/' },
           ],
         },
-        { text: 'दस्तावेज़', link: '/दस्तावेज़/मार्गदर्शिकाएँ/प्रारंभ' },
-        { text: 'समाचार', link: '/समाचार/' },
+        { text: 'दस्तावेज़', link: '/hi/docs/guides/getting-started' },
+        { text: 'समाचार', link: '/hi/news/' },
       ],
       sidebar: {
-        '/दस्तावेज़/': [
+        '/hi/docs/': [
+          {
+            items: [
+              { text: 'डाउनलोड करें', link: '/hi/download/' },
+              { text: 'परिवर्तन लेख', link: '/hi/changelogs/' },
+              { text: 'फोर्क्स', link: '/hi/forks/' },
+              { text: 'योगदान', link: '/hi/docs/contribute' },
+            ],
+          },
           {
             text: 'मार्गदर्शिकाएँ',
             items: [
-              { text: 'परिचय', link: '/दस्तावेज़/मार्गदर्शिकाएँ/प्रारंभ' },
+              { text: 'परिचय', link: '/hi/docs/guides/getting-started' },
             ],
           },
         ],
@@ -438,21 +605,29 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Szerezd be a(z) #{app_version}-t',
+          text: 'Get #{app_version}',
           items: [
-            { text: 'Letöltés', link: '/letöltés/' },
-            { text: 'Változási napló', link: '/változási-napló/' },
+            { text: 'Letöltés', link: '/hu/download/' },
+            { text: 'Változások', link: '/hu/changelogs/' },
           ],
         },
-        { text: 'Dokumentáció', link: '/dokumentáció/útmutatók/kezdés' },
-        { text: 'Hírek', link: '/hírek/' },
+        { text: 'Dokumentumok', link: '/hu/docs/guides/getting-started' },
+        { text: 'Hírek', link: '/hu/news/' },
       ],
       sidebar: {
-        '/dokumentáció/': [
+        '/hu/docs/': [
+          {
+            items: [
+              { text: 'Letöltés', link: '/hu/download/' },
+              { text: 'Változások', link: '/hu/changelogs/' },
+              { text: 'Ágak', link: '/hu/forks/' },
+              { text: 'Hozzájárulás', link: '/hu/docs/contribute' },
+            ],
+          },
           {
             text: 'Útmutatók',
             items: [
-              { text: 'Bevezetés', link: '/dokumentáció/útmutatók/kezdés' },
+              { text: 'Bevezetés', link: '/hu/docs/guides/getting-started' },
             ],
           },
         ],
@@ -467,19 +642,27 @@ const locales = {
         {
           text: 'Ottieni #{app_version}',
           items: [
-            { text: 'Scarica', link: '/scarica/' },
-            { text: 'Registro delle modifiche', link: '/registro-delle-modifiche/' },
+            { text: 'Scarica', link: '/it/download/' },
+            { text: 'Changelog', link: '/it/changelogs/' },
           ],
         },
-        { text: 'Documentazione', link: '/documentazione/guide/iniziare' },
-        { text: 'Notizie', link: '/notizie/' },
+        { text: 'Documentazione', link: '/it/docs/guides/getting-started' },
+        { text: 'Novità', link: '/it/news/' },
       ],
       sidebar: {
-        '/documentazione/': [
+        '/it/docs/': [
+          {
+            items: [
+              { text: 'Scarica', link: '/it/download/' },
+              { text: 'Changelog', link: '/it/changelogs/' },
+              { text: 'Fork', link: '/it/forks/' },
+              { text: 'Contribuisci', link: '/it/docs/contribute' },
+            ],
+          },
           {
             text: 'Guide',
             items: [
-              { text: 'Introduzione', link: '/documentazione/guide/iniziare' },
+              { text: 'Introduzione', link: '/it/docs/guides/getting-started' },
             ],
           },
         ],
@@ -494,19 +677,27 @@ const locales = {
         {
           text: '#{app_version} を入手',
           items: [
-            { text: 'ダウンロード', link: '/ダウンロード/' },
-            { text: '変更ログ', link: '/変更ログ/' },
+            { text: 'ダウンロード', link: '/ja/download/' },
+            { text: '変更履歴', link: '/ja/changelogs/' },
           ],
         },
-        { text: 'ドキュメント', link: '/ドキュメント/ガイド/はじめに' },
-        { text: 'ニュース', link: '/ニュース/' },
+        { text: 'ドキュメント', link: '/ja/docs/guides/getting-started' },
+        { text: 'ニュース', link: '/ja/news/' },
       ],
       sidebar: {
-        '/ドキュメント/': [
+        '/ja/docs/': [
+          {
+            items: [
+              { text: 'ダウンロード', link: '/ja/download/' },
+              { text: '変更履歴', link: '/ja/changelogs/' },
+              { text: 'フォーク', link: '/ja/forks/' },
+              { text: '貢献する', link: '/ja/docs/contribute' },
+            ],
+          },
           {
             text: 'ガイド',
             items: [
-              { text: 'イントロダクション', link: '/ドキュメント/ガイド/はじめに' },
+              { text: 'はじめに', link: '/ja/docs/guides/getting-started' },
             ],
           },
         ],
@@ -521,73 +712,96 @@ const locales = {
         {
           text: '#{app_version} 받기',
           items: [
-            { text: '다운로드', link: '/다운로드/' },
-            { text: '변경 로그', link: '/변경-로그/' },
+            { text: '다운로드', link: '/ko/download/' },
+            { text: '변경 내역', link: '/ko/changelogs/' },
           ],
         },
-        { text: '문서', link: '/문서/가이드/시작하기' },
-        { text: '뉴스', link: '/뉴스/' },
+        { text: '문서', link: '/ko/docs/guides/getting-started' },
+        { text: '뉴스', link: '/ko/news/' },
       ],
       sidebar: {
-        '/문서/': [
+        '/ko/docs/': [
+          {
+            items: [
+              { text: '다운로드', link: '/ko/download/' },
+              { text: '변경 내역', link: '/ko/changelogs/' },
+              { text: '포크', link: '/ko/forks/' },
+              { text: '기여하기', link: '/ko/docs/contribute' },
+            ],
+          },
           {
             text: '가이드',
             items: [
-              { text: '소개', link: '/문서/가이드/시작하기' },
+              { text: '소개', link: '/ko/docs/guides/getting-started' },
             ],
           },
         ],
       },
     },
   },
-  nb: {
+  no: {
     label: 'Norwegian',
-    lang: 'nb',
+    lang: 'no',
     themeConfig: {
       nav: [
         {
           text: 'Få #{app_version}',
           items: [
-            { text: 'Nedlasting', link: '/nedlasting/' },
-            { text: 'Endringslogg', link: '/endringslogg/' },
+            { text: 'Nedlasting', link: '/no/download/' },
+            { text: 'Endringslogger', link: '/no/changelogs/' },
           ],
         },
-        { text: 'Dokumentasjon', link: '/dokumentasjon/guider/komme-i-gang' },
-        { text: 'Nyheter', link: '/nyheter/' },
+        { text: 'Dokumentasjon', link: '/no/docs/guides/getting-started' },
+        { text: 'Nyheter', link: '/no/news/' },
       ],
       sidebar: {
-        '/dokumentasjon/': [
+        '/no/docs/': [
+          {
+            items: [
+              { text: 'Nedlasting', link: '/no/download/' },
+              { text: 'Endringslogger', link: '/no/changelogs/' },
+              { text: 'Forgreninger', link: '/no/forks/' },
+              { text: 'Bidra', link: '/no/docs/contribute' },
+            ],
+          },
           {
             text: 'Guider',
             items: [
-              { text: 'Introduksjon', link: '/dokumentasjon/guider/komme-i-gang' },
+              { text: 'Introduksjon', link: '/no/docs/guides/getting-started' },
             ],
           },
         ],
       },
     },
   },
-  pl: {
-    label: 'Polish',
+  pl: {label: 'Polish',
     lang: 'pl',
     themeConfig: {
       nav: [
         {
           text: 'Pobierz #{app_version}',
           items: [
-            { text: 'Pobierz', link: '/pobierz/' },
-            { text: 'Dziennik zmian', link: '/dziennik-zmian/' },
+            { text: 'Pobierz', link: '/pl/download/' },
+            { text: 'Dzienniki zmian', link: '/pl/changelogs/' },
           ],
         },
-        { text: 'Dokumentacja', link: '/dokumentacja/przewodniki/pierwsze-kroki' },
-        { text: 'Wiadomości', link: '/wiadomości/' },
+        { text: 'Dokumentacja', link: '/pl/docs/guides/getting-started' },
+        { text: 'Aktualności', link: '/pl/news/' },
       ],
       sidebar: {
-        '/dokumentacja/': [
+        '/pl/docs/': [
+          {
+            items: [
+              { text: 'Pobierz', link: '/pl/download/' },
+              { text: 'Dzienniki zmian', link: '/pl/changelogs/' },
+              { text: 'Rozgałęzienia', link: '/pl/forks/' },
+              { text: 'Wspomóż', link: '/pl/docs/contribute' },
+            ],
+          },
           {
             text: 'Przewodniki',
             items: [
-              { text: 'Wprowadzenie', link: '/dokumentacja/przewodniki/pierwsze-kroki' },
+              { text: 'Wprowadzenie', link: '/pl/docs/guides/getting-started' },
             ],
           },
         ],
@@ -602,19 +816,27 @@ const locales = {
         {
           text: 'Obter #{app_version}',
           items: [
-            { text: 'Download', link: '/download/' },
-            { text: 'Registo de alterações', link: '/registo-de-alterações/' },
+            { text: 'Baixar', link: '/pt/download/' },
+            { text: 'Registos de Mudanças', link: '/pt/changelogs/' },
           ],
         },
-        { text: 'Documentação', link: '/documentação/guias/introdução' },
-        { text: 'Notícias', link: '/notícias/' },
+        { text: 'Documentação', link: '/pt/docs/guides/getting-started' },
+        { text: 'Notícias', link: '/pt/news/' },
       ],
       sidebar: {
-        '/documentação/': [
+        '/pt/docs/': [
+          {
+            items: [
+              { text: 'Baixar', link: '/pt/download/' },
+              { text: 'Registos de Mudanças', link: '/pt/changelogs/' },
+              { text: 'Bifurcações', link: '/pt/forks/' },
+              { text: 'Contribuir', link: '/pt/docs/contribute' },
+            ],
+          },
           {
             text: 'Guias',
             items: [
-              { text: 'Introdução', link: '/documentação/guias/introdução' },
+              { text: 'Introdução', link: '/pt/docs/guides/getting-started' },
             ],
           },
         ],
@@ -629,19 +851,27 @@ const locales = {
         {
           text: 'Obter #{app_version}',
           items: [
-            { text: 'Download', link: '/download/' },
-            { text: 'Registro de alterações', link: '/registro-de-alterações/' },
+            { text: 'Baixar', link: '/pt-BR/download/' },
+            { text: 'Registros de Mudanças', link: '/pt-BR/changelogs/' },
           ],
         },
-        { text: 'Documentação', link: '/documentação/guias/introdução' },
-        { text: 'Notícias', link: '/notícias/' },
+        { text: 'Documentação', link: '/pt-BR/docs/guides/getting-started' },
+        { text: 'Notícias', link: '/pt-BR/news/' },
       ],
       sidebar: {
-        '/documentação/': [
+        '/pt-BR/docs/': [
+          {
+            items: [
+              { text: 'Baixar', link: '/pt-BR/download/' },
+              { text: 'Registros de Mudanças', link: '/pt-BR/changelogs/' },
+              { text: 'Bifurcações', link: '/pt-BR/forks/' },
+              { text: 'Contribuir', link: '/pt-BR/docs/contribute' },
+            ],
+          },
           {
             text: 'Guias',
             items: [
-              { text: 'Introdução', link: '/documentação/guias/introdução' },
+              { text: 'Introdução', link: '/pt-BR/docs/guides/getting-started' },
             ],
           },
         ],
@@ -656,19 +886,27 @@ const locales = {
         {
           text: 'Obțineți #{app_version}',
           items: [
-            { text: 'Descărcare', link: '/descărcare/' },
-            { text: 'Jurnalul modificărilor', link: '/jurnalul-modificărilor/' },
+            { text: 'Descărcare', link: '/ro/download/' },
+            { text: 'Jurnale de schimbări', link: '/ro/changelogs/' },
           ],
         },
-        { text: 'Documentație', link: '/documentație/ghiduri/introducere' },
-        { text: 'Știri', link: '/știri/' },
+        { text: 'Documentație', link: '/ro/docs/guides/getting-started' },
+        { text: 'Știri', link: '/ro/news/' },
       ],
       sidebar: {
-        '/documentație/': [
+        '/ro/docs/': [
+          {
+            items: [
+              { text: 'Descărcare', link: '/ro/download/' },
+              { text: 'Jurnale de schimbări', link: '/ro/changelogs/' },
+              { text: 'Furci', link: '/ro/forks/' },
+              { text: 'Contribui', link: '/ro/docs/contribute' },
+            ],
+          },
           {
             text: 'Ghiduri',
             items: [
-              { text: 'Introducere', link: '/documentație/ghiduri/introducere' },
+              { text: 'Introducere', link: '/ro/docs/guides/getting-started' },
             ],
           },
         ],
@@ -683,19 +921,97 @@ const locales = {
         {
           text: 'Получить #{app_version}',
           items: [
-            { text: 'Загрузка', link: '/загрузка/' },
-            { text: 'История изменений', link: '/история-изменений/' },
+            { text: 'Скачать', link: '/ru/download/' },
+            { text: 'Изменения', link: '/ru/changelogs/' },
           ],
         },
-        { text: 'Документация', link: '/документация/руководства/начало' },
-        { text: 'Новости', link: '/новости/' },
+        { text: 'Документация', link:'/ru/docs/guides/getting-started' },
+        { text: 'Новости', link: '/ru/news/' },
       ],
       sidebar: {
-        '/документация/': [
+        '/ru/docs/': [
+          {
+            items: [
+              { text: 'Скачать', link: '/ru/download/' },
+              { text: 'Изменения', link: '/ru/changelogs/' },
+              { text: 'Форки', link: '/ru/forks/' },
+              { text: 'Внести вклад', link: '/ru/docs/contribute' },
+            ],
+          },
           {
             text: 'Руководства',
             items: [
-              { text: 'Введение', link: '/документация/руководства/начало' },
+              { text: 'Введение', link: '/ru/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  sk: {
+    label: 'Slovak',
+    lang: 'sk',
+    themeConfig: {
+      nav: [
+        {
+          text: 'Získať #{app_version}',
+          items: [
+            { text: 'Stiahnuť', link: '/sk/download/' },
+            { text: 'Zmeny', link: '/sk/changelogs/' },
+          ],
+        },
+        { text: 'Dokumentácia', link: '/sk/docs/guides/getting-started' },
+        { text: 'Novinky', link: '/sk/news/' },
+      ],
+      sidebar: {
+        '/sk/docs/': [
+          {
+            items: [
+              { text: 'Stiahnuť', link: '/sk/download/' },
+              { text: 'Zmeny', link: '/sk/changelogs/' },
+              { text: 'Rozdvojenia', link: '/sk/forks/' },
+              { text: 'Prispieť', link: '/sk/docs/contribute' },
+            ],
+          },
+          {
+            text: 'Príručky',
+            items: [
+              { text: 'Úvod', link: '/sk/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  sl: {
+    label: 'Slovenian',
+    lang: 'sl',
+    themeConfig: {
+      nav: [
+        {
+          text: 'Pridobi #{app_version}',
+          items: [
+            { text: 'Prenesi', link: '/sl/download/' },
+            { text: 'Dnevniki sprememb', link: '/sl/changelogs/' },
+          ],
+        },
+        { text: 'Dokumentacija', link: '/sl/docs/guides/getting-started' },
+        { text: 'Novice', link: '/sl/news/' },
+      ],
+      sidebar: {
+        '/sl/docs/': [
+          {
+            items: [
+              { text: 'Prenesi', link: '/sl/download/' },
+              { text: 'Dnevniki sprememb', link: '/sl/changelogs/' },
+              { text: 'Razcepi', link: '/sl/forks/' },
+              { text: 'Prispevaj', link: '/sl/docs/contribute' },
+            ],
+          },
+          {
+            text: 'Vodniki',
+            items: [
+              { text: 'Uvod', link: '/sl/docs/guides/getting-started' },
             ],
           },
         ],
@@ -703,26 +1019,34 @@ const locales = {
     },
   },
   sr: {
-    label: 'Serbian (Cyrillic)',
+    label: 'Serbian',
     lang: 'sr',
     themeConfig: {
       nav: [
         {
           text: 'Добијте #{app_version}',
           items: [
-            { text: 'Преузимање', link: '/преузимање/' },
-            { text: 'Дневник измена', link: '/дневник-измена/' },
+            { text: 'Преузимање', link: '/sr/download/' },
+            { text: 'Дневници промена', link: '/sr/changelogs/' },
           ],
         },
-        { text: 'Документација', link: '/документација/водичи/почетак' },
-        { text: 'Вести', link: '/вести/' },
+        { text: 'Документација', link: '/sr/docs/guides/getting-started' },
+        { text: 'Вести', link: '/sr/news/' },
       ],
       sidebar: {
-        '/документација/': [
+        '/sr/docs/': [
+          {
+            items: [
+              { text: 'Преузимање', link: '/sr/download/' },
+              { text: 'Дневници промена', link: '/sr/changelogs/' },
+              { text: 'Форкови', link: '/sr/forks/' },
+              { text: 'Допринос', link: '/sr/docs/contribute' },
+            ],
+          },
           {
             text: 'Водичи',
             items: [
-              { text: 'Увод', link: '/документација/водичи/почетак' },
+              { text: 'Увод', link: '/sr/docs/guides/getting-started' },
             ],
           },
         ],
@@ -735,21 +1059,29 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Få #{app_version}',
+          text: 'Hämta #{app_version}',
           items: [
-            { text: 'Ladda ner', link: '/ladda-ner/' },
-            { text: 'Ändringslogg', link: '/ändringslogg/' },
+            { text: 'Ladda ner', link: '/sv/download/' },
+            { text: 'Ändringslogg', link: '/sv/changelogs/' },
           ],
         },
-        { text: 'Dokumentation', link: '/dokumentation/guider/komma-igång' },
-        { text: 'Nyheter', link: '/nyheter/' },
+        { text: 'Dokumentation', link: '/sv/docs/guides/getting-started' },
+        { text: 'Nyheter', link: '/sv/news/' },
       ],
       sidebar: {
-        '/dokumentation/': [
+        '/sv/docs/': [
+          {
+            items: [
+              { text: 'Ladda ner', link: '/sv/download/' },
+              { text: 'Ändringslogg', link: '/sv/changelogs/' },
+              { text: 'Forkar', link: '/sv/forks/' },
+              { text: 'Bidra', link: '/sv/docs/contribute' },
+            ],
+          },
           {
             text: 'Guider',
             items: [
-              { text: 'Introduktion', link: '/dokumentation/guider/komma-igång' },
+              { text: 'Introduktion', link: '/sv/docs/guides/getting-started' },
             ],
           },
         ],
@@ -762,21 +1094,28 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: '#{app_version} Edinin',
+          text: '#{app_version} Edin',
           items: [
-            { text: 'İndir', link: '/indir/' },
-            { text: 'Değişiklik Günlüğü', link: '/değişiklik-günlüğü/' },
+            { text: 'İndir', link: '/tr/download/' },
+            { text: 'Değişiklik Günlükleri', link: '/tr/changelogs/' },
           ],
         },
-        { text: 'Belgeler', link: '/belgeler/kılavuzlar/başlarken' },
-        { text: 'Haberler', link: '/haberler/' },
+        { text: 'Belgeler', link: '/tr/docs/guides/getting-started' },
+        { text: 'Haberler', link: '/tr/news/' },
       ],
       sidebar: {
-        '/belgeler/': [
+        '/tr/docs/': [
           {
-            text: 'Kılavuzlar',
             items: [
-              { text: 'Giriş', link: '/beleler/kılavuzlar/başlarken' },
+              { text: 'İndir', link: '/tr/download/' },
+              { text: 'Değişiklik Günlükleri', link: '/tr/changelogs/' },
+              { text: 'Çatallar', link: '/tr/forks/' },
+              { text: 'Katkıda Bulun', link: '/tr/docs/contribute' },
+            ],
+          },
+          {text: 'Kılavuzlar',
+            items: [
+              { text: 'Giriş', link: '/tr/docs/guides/getting-started' },
             ],
           },
         ],
@@ -791,19 +1130,27 @@ const locales = {
         {
           text: 'Отримати #{app_version}',
           items: [
-            { text: 'Завантажити', link: '/завантажити/' },
-            { text: 'Журнал змін', link: '/журнал-змін/' },
+            { text: 'Завантажити', link: '/uk/download/' },
+            { text: 'Журнали змін', link: '/uk/changelogs/' },
           ],
         },
-        { text: 'Документація', link: '/документація/посібники/початок' },
-        { text: 'Новини', link: '/новини/' },
+        { text: 'Документація', link: '/uk/docs/guides/getting-started' },
+        { text: 'Новини', link: '/uk/news/' },
       ],
       sidebar: {
-        '/документація/': [
+        '/uk/docs/': [
+          {
+            items: [
+              { text: 'Завантажити', link: '/uk/download/' },
+              { text: 'Журнали змін', link: '/uk/changelogs/' },
+              { text: 'Відгалуження', link: '/uk/forks/' },
+              { text: 'Внести внесок', link: '/uk/docs/contribute' },
+            ],
+          },
           {
             text: 'Посібники',
             items: [
-              { text: 'Вступ', link: '/документація/посібники/початок' },
+              { text: 'Вступ', link: '/uk/docs/guides/getting-started' },
             ],
           },
         ],
@@ -818,20 +1165,98 @@ const locales = {
         {
           text: 'Nhận #{app_version}',
           items: [
-            { text: 'Tải xuống', link: '/tải-xuống/' },
-            { text: 'Nhật ký thay đổi', link: '/nhật-ký-thay-đổi/' },
+            { text: 'Tải xuống', link: '/vi/download/' },
+            { text: 'Nhật ký thay đổi', link: '/vi/changelogs/' },
           ],
         },
-        { text: 'Tài liệu', link: '/tài-liệu/hướng-dẫn/bắt-đầu' },
-        { text: 'Tin tức', link: '/tin-tức/' },
+        { text: 'Tài liệu', link: '/vi/docs/guides/getting-started' },
+        { text: 'Tin tức', link: '/vi/news/' },
       ],
       sidebar: {
-        '/tài-liệu/': [
+        '/vi/docs/': [
+          {
+            items: [
+              { text: 'Tải xuống', link: '/vi/download/' },
+              { text: 'Nhật ký thay đổi', link: '/vi/changelogs/' },
+              { text: 'Nhánh', link: '/vi/forks/' },
+              { text: 'Đóng góp', link: '/vi/docs/contribute' },
+            ],
+          },
           {
             text: 'Hướng dẫn',
             items: [
-              { text: 'Giới thiệu', link: '/tài-liệu/hướng-dẫn/bắt-đầu' },
+              { text: 'Giới thiệu', link: '/vi/docs/guides/getting-started' },
             ],
+          },
+        ],
+      },
+    },
+  },
+  zh_CN: {
+    label: 'Chinese, Simplified',
+    lang: 'zh-CN',
+    themeConfig: {
+      nav: [
+        {
+          text: '获取 #{app_version}',
+          items: [
+            { text: '下载', link: '/zh-CN/download/' },
+            { text: '更新日志', link: '/zh-CN/changelogs/' },
+          ],
+        },
+        { text: '文档', link: '/zh-CN/docs/guides/getting-started' },
+        { text: '新闻', link: '/zh-CN/news/' },
+      ],
+      sidebar: {
+        '/zh-CN/docs/': [
+          {
+            items: [
+              { text: '下载', link: '/zh-CN/download/' },
+              { text: '更新日志', link: '/zh-CN/changelogs/' },
+              { text: '分支', link: '/zh-CN/forks/' },
+              { text: '贡献', link: '/zh-CN/docs/contribute' },
+            ],
+          },
+          {
+            text: '指南',
+            items: [
+              { text: '介绍', link: '/zh-CN/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  zh_TW: {
+    label: 'Chinese, Traditional',
+    lang: 'zh-TW',
+    themeConfig: {
+      nav: [
+        {
+          text: '取得 #{app_version}',
+          items: [
+            { text: '下載', link: '/zh-TW/download/' },
+            { text: '更新日誌', link: '/zh-TW/changelogs/' },
+          ],
+        },
+        { text: '文件', link: '/zh-TW/docs/guides/getting-started' },
+        { text: '新聞', link: '/zh-TW/news/' },
+      ],
+      sidebar: {
+        '/zh-TW/docs/': [
+          {
+            items: [
+              { text: '下載', link: '/zh-TW/download/' },
+              { text: '更新日誌', link: '/zh-TW/changelogs/' },
+              { text: '分支', link: '/zh-TW/forks/' },
+              { text: '貢獻', link: '/zh-TW/docs/contribute' },
+            ],
+          },
+          {
+            text: '指南',
+            items: [
+              { text: '介紹', link: '/zh-TW/docs/guides/getting-started' },
+],
           },
         ],
       },
@@ -840,4 +1265,3 @@ const locales = {
 };
 
  export default locales;
-  
