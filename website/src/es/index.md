@@ -1,6 +1,6 @@
 ---
 title: Inicio
-layout: inicio
+layout: home
 hero:
   name: Himitsu
   tagline: Un secreto tan bueno que incluso el nombre está prohibido.

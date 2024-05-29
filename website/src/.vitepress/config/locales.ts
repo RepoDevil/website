@@ -1,12 +1,12 @@
 
 const locales = {
-  root: {
-    label: 'English',
-    lang: 'en',
-    themeConfig: {
-      nav: [
-        {
-          text : 'Get #{app_version}',
+    root: {
+      label: 'English',
+      lang: 'en',
+      themeConfig: {
+        nav: [
+          {
+             text : 'Get #{app_version}',
           items: [
             { text: 'Download', link: '/download/' },
             { text: 'Changelogs', link: '/changelogs/' },
@@ -14,67 +14,53 @@ const locales = {
         },
         { text: 'Docs', link: '/docs/guides/getting-started' },
         { text: 'News', link: '/news/' },
-      ],
-      sidebar: {
-        '/docs/': [
-          {
-            items: [
-              {
-                text: 'Download',
-                link: '/download/',
-              },
-              {
-                text: 'Changelogs',
-                link: '/changelogs/',
-              },
-              {
-                text: 'Forks',
-                link: '/forks/',
-              },
-              {
-                text: 'Contribute',
-                link: '/docs/contribute',
-              },
-            ],
-          },
-          {
-
-            text: 'Guides',
-            items: [
-              { text: 'Introduction', link: '/docs/guides/getting-started' },
-            ],
-          },
         ],
-      },
-    },
-  },
-  es: {
-    label: 'Español',
-    lang: 'es',
-    themeConfig: {
-      nav: [
-        {
-          text: 'Obtener #{app_version}',
-          items: [
-            { text: 'Descargar', link: '/es/download/' },
-            { text: 'Registro de cambios', link: '/es/changelogs/' },
+        sidebar: { 
+          '/docs/': [
+            {
+            items: [
+              { text: 'Download', link: '/download/' },
+              { text: 'Changelogs', link: '/changelogs/' },
+              { text: 'Forks', link: '/forks/' },
+              { text: 'Contribute', link: '/docs/contribute' },
+            ],      },
+            {
+              text: 'Guides',
+              items: [
+                { text: 'Introduction', link: '/docs/guides/getting-started' },
+              ],
+            },
           ],
         },
-        { text: 'Docs', link: '/es/docs/guides/getting-started' },
-        { text: 'Noticias', link: '/es/news/' },
-      ],
-      sidebar: {
-        '/es/docs/': [
-          {
-            text: 'Guías',
-            items: [
-              { text: 'Introducción', link: '/es/docs/guides/getting-started' },
-            ],
-          },
-        ],
       },
     },
-  },
+    es: {
+      label: 'Español',
+      lang: 'es',
+      themeConfig: {
+        nav: [
+          {
+            text: 'Obtener #{app_version}',
+            items: [
+              { text: 'Descargar', link: '/es/download/' },
+              { text: 'Registro de cambios', link: '/es/changelogs/' },
+            ],
+          },
+          { text: 'Docs', link: '/es/docs/guides/getting-started' },
+          { text: 'Noticias', link: '/es/news/' },
+        ],
+        sidebar: {
+          '/es/docs/': [
+            {
+              text: 'Guías',
+              items: [
+                { text: 'Introducción', link: '/es/docs/guides/getting-started' },
+              ],
+            },
+          ],
+        },
+      },
+    },
   af: {
     label: 'Afrikaans',
     lang: 'af',
@@ -84,10 +70,10 @@ const locales = {
           text: 'Kry #{app_version}',
           items: [
             { text: 'Aflaai', link: '/af/download/' },
-            { text: 'Veranderingsnotas', link: '/af/changelogs/' },
+            { text: 'Veranderinge', link: '/af/changelogs/' },
           ],
         },
-        { text: 'Doks', link: '/af/docs/guides/getting-started' },
+        { text: 'Dokumentasie', link: '/af/docs/guides/getting-started' },
         { text: 'Nuus', link: '/af/news/' },
       ],
       sidebar: {
@@ -95,9 +81,9 @@ const locales = {
           {
             items: [
               { text: 'Aflaai', link: '/af/download/' },
-              { text: 'Veranderingsnotas', link: '/af/changelogs/' },
-              { text: 'Vurke', link: '/af/forks/' },
-              { text: 'Bydra', link: '/af/docs/contribute' },
+              { text: 'Veranderinge', link: '/af/changelogs/' },
+              { text: 'Forks', link: '/af/forks/' },
+              { text: 'Dra by', link: '/af/docs/contribute' },
             ],
           },
           {
@@ -122,8 +108,8 @@ const locales = {
             { text: 'سجل التغييرات', link: '/ar/changelogs/' },
           ],
         },
-        { text: 'المستندات', link: '/ar/docs/guides/getting-started' },
-        { text: 'أخبار', link: '/ar/news/' },
+        { text: 'الوثائق', link: '/ar/docs/guides/getting-started' },
+        { text: 'الأخبار', link: '/ar/news/' },
       ],
       sidebar: {
         '/ar/docs/': [
@@ -131,7 +117,7 @@ const locales = {
             items: [
               { text: 'تحميل', link: '/ar/download/' },
               { text: 'سجل التغييرات', link: '/ar/changelogs/' },
-              { text: 'فروكس', link: '/ar/forks/' },
+              { text: 'فوركس', link: '/ar/forks/' },
               { text: 'المساهمة', link: '/ar/docs/contribute' },
             ],
           },
@@ -151,13 +137,13 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: '#{app_version} লাভ কৰক',
+          text: 'পাওক #{app_version}',
           items: [
             { text: 'ডাউনলোড', link: '/as/download/' },
-            { text: 'পৰিবৰ্তনসমূহ', link: '/as/changelogs/' },
+            { text: 'পৰিবৰ্তন পঞ্জী', link: '/as/changelogs/' },
           ],
         },
-        { text: 'ডকুমেণ্টস', link: '/as/docs/guides/getting-started' },
+        { text: 'দলিলসমূহ', link: '/as/docs/guides/getting-started' },
         { text: 'সংবাদ', link: '/as/news/' },
       ],
       sidebar: {
@@ -165,15 +151,15 @@ const locales = {
           {
             items: [
               { text: 'ডাউনলোড', link: '/as/download/' },
-              { text: 'পৰিবৰ্তনসমূহ', link: '/as/changelogs/' },
-              { text: 'ফর্কস', link: '/as/forks/' },
-              { text: 'অবদান', link: '/as/docs/contribute' },
+              { text: 'পৰিবৰ্তন পঞ্জী', link: '/as/changelogs/' },
+              { text: 'ফৰ্কস', link: '/as/forks/' },
+              { text: 'অংশগ্ৰহণ কৰক', link: '/as/docs/contribute' },
             ],
           },
           {
             text: 'গাইডসমূহ',
             items: [
-              { text: 'ভূমিকা', link: '/as/docs/guides/getting-started' },
+              { text: 'প্ৰৱেশ', link: '/as/docs/guides/getting-started' },
             ],
           },
         ],
@@ -186,20 +172,20 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Obtenir #{app_version}',
+          text: 'Obtén #{app_version}',
           items: [
-            { text: 'Baixar', link: '/ca/download/' },
+            { text: 'Descarregar', link: '/ca/download/' },
             { text: 'Canvis', link: '/ca/changelogs/' },
           ],
         },
-        { text: 'Docs', link: '/ca/docs/guides/getting-started' },
+        { text: 'Documentació', link: '/ca/docs/guides/getting-started' },
         { text: 'Notícies', link: '/ca/news/' },
       ],
       sidebar: {
         '/ca/docs/': [
           {
             items: [
-              { text: 'Baixar', link: '/ca/download/' },
+              { text: 'Descarregar', link: '/ca/download/' },
               { text: 'Canvis', link: '/ca/changelogs/' },
               { text: 'Bifurcacions', link: '/ca/forks/' },
               { text: 'Contribuir', link: '/ca/docs/contribute' },
@@ -215,7 +201,7 @@ const locales = {
       },
     },
   },
-  zhCN: {
+  'zh-CN': {
     label: 'Chinese Simplified',
     lang: 'zh-CN',
     themeConfig: {
@@ -227,7 +213,7 @@ const locales = {
             { text: '更新日志', link: '/zh-CN/changelogs/' },
           ],
         },
-        { text: '文档',link: '/zh-CN/docs/guides/getting-started' },
+        { text: '文档', link: '/zh-CN/docs/guides/getting-started' },
         { text: '新闻', link: '/zh-CN/news/' },
       ],
       sidebar: {
@@ -250,16 +236,16 @@ const locales = {
       },
     },
   },
-  zhTW: {
+  'zh-TW': {
     label: 'Chinese Traditional',
     lang: 'zh-TW',
     themeConfig: {
       nav: [
         {
-          text: '獲取 #{app_version}',
+          text: '取得 #{app_version}',
           items: [
             { text: '下載', link: '/zh-TW/download/' },
-            { text: '變更日誌', link: '/zh-TW/changelogs/' },
+            { text: '更新日誌', link: '/zh-TW/changelogs/' },
           ],
         },
         { text: '文件', link: '/zh-TW/docs/guides/getting-started' },
@@ -270,8 +256,8 @@ const locales = {
           {
             items: [
               { text: '下載', link: '/zh-TW/download/' },
-              { text: '變更日誌', link: '/zh-TW/changelogs/' },
-              { text: '分叉', link: '/zh-TW/forks/' },
+              { text: '更新日誌', link: '/zh-TW/changelogs/' },
+              { text: '分支', link: '/zh-TW/forks/' },
               { text: '貢獻', link: '/zh-TW/docs/contribute' },
             ],
           },
@@ -306,12 +292,14 @@ const locales = {
             items: [
               { text: 'Stáhnout', link: '/cs/download/' },
               { text: 'Změny', link: '/cs/changelogs/' },
-              { text: 'Forky', link: '/cs/forks/' },
+              { text: 'Forky', link:
+
+ '/cs/forks/' },
               { text: 'Přispět', link: '/cs/docs/contribute' },
             ],
           },
           {
-            text: 'Průvodci',
+            text: 'Příručky',
             items: [
               { text: 'Úvod', link: '/cs/docs/guides/getting-started' },
             ],
@@ -326,13 +314,13 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Hent #{app_version}',
+          text: 'Få #{app_version}',
           items: [
             { text: 'Download', link: '/da/download/' },
             { text: 'Ændringslog', link: '/da/changelogs/' },
           ],
         },
-        { text: 'Docs', link: '/da/docs/guides/getting-started' },
+        { text: 'Dokumentation', link: '/da/docs/guides/getting-started' },
         { text: 'Nyheder', link: '/da/news/' },
       ],
       sidebar: {
@@ -341,12 +329,12 @@ const locales = {
             items: [
               { text: 'Download', link: '/da/download/' },
               { text: 'Ændringslog', link: '/da/changelogs/' },
-              { text: 'Forgreninger', link: '/da/forks/' },
+              { text: 'Forks', link: '/da/forks/' },
               { text: 'Bidrag', link: '/da/docs/contribute' },
             ],
           },
           {
-            text: 'Guider',
+            text: 'Vejledninger',
             items: [
               { text: 'Introduktion', link: '/da/docs/guides/getting-started' },
             ],
@@ -396,10 +384,10 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Hae #{app_version}',
+          text: 'Hanki #{app_version}',
           items: [
             { text: 'Lataa', link: '/fi/download/' },
-            { text: 'Muutosloki', link: '/fi/changelogs/' },
+            { text: 'Muutoslokit', link: '/fi/changelogs/' },
           ],
         },
         { text: 'Dokumentaatio', link: '/fi/docs/guides/getting-started' },
@@ -410,8 +398,8 @@ const locales = {
           {
             items: [
               { text: 'Lataa', link: '/fi/download/' },
-              { text: 'Muutosloki', link: '/fi/changelogs/' },
-              { text: 'Haarat', link: '/fi/forks/' },
+              { text: 'Muutoslokit', link: '/fi/changelogs/' },
+              { text: 'Haarukat', link: '/fi/forks/' },
               { text: 'Osallistu', link: '/fi/docs/contribute' },
             ],
           },
@@ -431,13 +419,13 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Obtenir #{app_version}',
+          text: 'Obtenez #{app_version}',
           items: [
             { text: 'Télécharger', link: '/fr/download/' },
-            { text: 'Changements', link: '/fr/changelogs/' },
+            { text: 'Journal des modifications', link: '/fr/changelogs/' },
           ],
         },
-        { text: 'Docs', link: '/fr/docs/guides/getting-started' },
+        { text: 'Documentation', link: '/fr/docs/guides/getting-started' },
         { text: 'Actualités', link: '/fr/news/' },
       ],
       sidebar: {
@@ -445,7 +433,7 @@ const locales = {
           {
             items: [
               { text: 'Télécharger', link: '/fr/download/' },
-              { text: 'Changements', link: '/fr/changelogs/' },
+              { text: 'Journal des modifications', link: '/fr/changelogs/' },
               { text: 'Forks', link: '/fr/forks/' },
               { text: 'Contribuer', link: '/fr/docs/contribute' },
             ],
@@ -466,7 +454,7 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Hol #{app_version}',
+          text: 'Holen Sie sich #{app_version}',
           items: [
             { text: 'Herunterladen', link: '/de/download/' },
             { text: 'Änderungsprotokolle', link: '/de/changelogs/' },
@@ -482,7 +470,7 @@ const locales = {
               { text: 'Herunterladen', link: '/de/download/' },
               { text: 'Änderungsprotokolle', link: '/de/changelogs/' },
               { text: 'Forks', link: '/de/forks/' },
-              { text: 'Mitwirken', link: '/de/docs/contribute' },
+              { text: 'Beitragen', link: '/de/docs/contribute' },
             ],
           },
           {
@@ -501,23 +489,23 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Λήψη #{app_version}',
+          text: 'Λάβετε #{app_version}',
           items: [
-            { text: 'Λήψη', link: '/el/download/' },
+            { text: 'Κατεβάστε', link: '/el/download/' },
             { text: 'Αλλαγές', link: '/el/changelogs/' },
           ],
         },
-        { text: 'Εγχειρίδια', link: '/el/docs/guides/getting-started' },
+        { text: 'Τεκμηρίωση', link: '/el/docs/guides/getting-started' },
         { text: 'Νέα', link: '/el/news/' },
       ],
       sidebar: {
         '/el/docs/': [
           {
             items: [
-              { text: 'Λήψη', link: '/el/download/' },
+              { text: 'Κατεβάστε', link: '/el/download/' },
               { text: 'Αλλαγές', link: '/el/changelogs/' },
-              { text: 'Παρακλάδες', link: '/el/forks/' },
-              { text: 'Συνεισφορά', link: '/el/docs/contribute' },
+              { text: 'Forks', link: '/el/forks/' },
+              { text: 'Συνεισφέρετε', link: '/el/docs/contribute' },
             ],
           },
           {
@@ -538,20 +526,20 @@ const locales = {
         {
           text: 'קבל #{app_version}',
           items: [
-            { text: 'הורדה', link: '/he/download/' },
+            { text: 'הורד', link: '/he/download/' },
             { text: 'יומני שינויים', link: '/he/changelogs/' },
           ],
         },
-        { text: 'מדריכים', link: '/he/docs/guides/getting-started' },
+        { text: 'תיעוד', link: '/he/docs/guides/getting-started' },
         { text: 'חדשות', link: '/he/news/' },
       ],
       sidebar: {
         '/he/docs/': [
           {
             items: [
-              { text: 'הורדה', link: '/he/download/' },
+              { text: 'הורד', link: '/he/download/' },
               { text: 'יומני שינויים', link: '/he/changelogs/' },
-              { text: 'סנכרונים', link: '/he/forks/' },
+              { text: 'Forks', link: '/he/forks/' },
               { text: 'תרומה', link: '/he/docs/contribute' },
             ],
           },
@@ -571,10 +559,10 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: '#{app_version} प्राप्त करें',
+          text: 'प्राप्त करें #{app_version}',
           items: [
             { text: 'डाउनलोड करें', link: '/hi/download/' },
-            { text: 'परिवर्तन लेख', link: '/hi/changelogs/' },
+            { text: 'परिवर्तन लॉग', link: '/hi/changelogs/' },
           ],
         },
         { text: 'दस्तावेज़', link: '/hi/docs/guides/getting-started' },
@@ -585,9 +573,9 @@ const locales = {
           {
             items: [
               { text: 'डाउनलोड करें', link: '/hi/download/' },
-              { text: 'परिवर्तन लेख', link: '/hi/changelogs/' },
-              { text: 'फोर्क्स', link: '/hi/forks/' },
-              { text: 'योगदान', link: '/hi/docs/contribute' },
+              { text: 'परिवर्तन लॉग', link: '/hi/changelogs/' },
+              { text: 'Forks', link: '/hi/forks/' },
+              { text: 'योगदान करें', link: '/hi/docs/contribute' },
             ],
           },
           {
@@ -606,13 +594,13 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Get #{app_version}',
+          text: 'Szerezd meg #{app_version}',
           items: [
             { text: 'Letöltés', link: '/hu/download/' },
-            { text: 'Változások', link: '/hu/changelogs/' },
+            { text: 'Változásnaplók', link: '/hu/changelogs/' },
           ],
         },
-        { text: 'Dokumentumok', link: '/hu/docs/guides/getting-started' },
+        { text: 'Dokumentáció', link: '/hu/docs/guides/getting-started' },
         { text: 'Hírek', link: '/hu/news/' },
       ],
       sidebar: {
@@ -620,8 +608,8 @@ const locales = {
           {
             items: [
               { text: 'Letöltés', link: '/hu/download/' },
-              { text: 'Változások', link: '/hu/changelogs/' },
-              { text: 'Ágak', link: '/hu/forks/' },
+              { text: 'Változásnaplók', link: '/hu/changelogs/' },
+              { text: 'Forks', link: '/hu/forks/' },
               { text: 'Hozzájárulás', link: '/hu/docs/contribute' },
             ],
           },
@@ -644,19 +632,19 @@ const locales = {
           text: 'Ottieni #{app_version}',
           items: [
             { text: 'Scarica', link: '/it/download/' },
-            { text: 'Changelog', link: '/it/changelogs/' },
+            { text: 'Modifiche', link: '/it/changelogs/' },
           ],
         },
         { text: 'Documentazione', link: '/it/docs/guides/getting-started' },
-        { text: 'Novità', link: '/it/news/' },
+        { text: 'Notizie', link: '/it/news/' },
       ],
       sidebar: {
         '/it/docs/': [
           {
             items: [
               { text: 'Scarica', link: '/it/download/' },
-              { text: 'Changelog', link: '/it/changelogs/' },
-              { text: 'Fork', link: '/it/forks/' },
+              { text: 'Modifiche', link: '/it/changelogs/' },
+              { text: 'Forks', link: '/it/forks/' },
               { text: 'Contribuisci', link: '/it/docs/contribute' },
             ],
           },
@@ -676,7 +664,7 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: '#{app_version} を入手',
+          text: '#{app_version} を取得',
           items: [
             { text: 'ダウンロード', link: '/ja/download/' },
             { text: '変更履歴', link: '/ja/changelogs/' },
@@ -698,7 +686,7 @@ const locales = {
           {
             text: 'ガイド',
             items: [
-              { text: 'はじめに', link: '/ja/docs/guides/getting-started' },
+              { text: 'イントロダクション', link: '/ja/docs/guides/getting-started' },
             ],
           },
         ],
@@ -714,7 +702,7 @@ const locales = {
           text: '#{app_version} 받기',
           items: [
             { text: '다운로드', link: '/ko/download/' },
-            { text: '변경 내역', link: '/ko/changelogs/' },
+            { text: '변경 로그', link: '/ko/changelogs/' },
           ],
         },
         { text: '문서', link: '/ko/docs/guides/getting-started' },
@@ -725,7 +713,7 @@ const locales = {
           {
             items: [
               { text: '다운로드', link: '/ko/download/' },
-              { text: '변경 내역', link: '/ko/changelogs/' },
+              { text: '변경 로그', link: '/ko/changelogs/' },
               { text: '포크', link: '/ko/forks/' },
               { text: '기여하기', link: '/ko/docs/contribute' },
             ],
@@ -748,8 +736,8 @@ const locales = {
         {
           text: 'Få #{app_version}',
           items: [
-            { text: 'Nedlasting', link: '/no/download/' },
-            { text: 'Endringslogger', link: '/no/changelogs/' },
+            { text: 'Last ned', link: '/no/download/' },
+            { text: 'Endringslogg', link: '/no/changelogs/' },
           ],
         },
         { text: 'Dokumentasjon', link: '/no/docs/guides/getting-started' },
@@ -759,9 +747,9 @@ const locales = {
         '/no/docs/': [
           {
             items: [
-              { text: 'Nedlasting', link: '/no/download/' },
-              { text: 'Endringslogger', link: '/no/changelogs/' },
-              { text: 'Forgreninger', link: '/no/forks/' },
+              { text: 'Last ned', link: '/no/download/' },
+              { text: 'Endringslogg', link: '/no/changelogs/' },
+              { text: 'Forks', link: '/no/forks/' },
               { text: 'Bidra', link: '/no/docs/contribute' },
             ],
           },
@@ -796,8 +784,8 @@ const locales = {
             items: [
               { text: 'Pobierz', link: '/pl/download/' },
               { text: 'Dzienniki zmian', link: '/pl/changelogs/' },
-              { text: 'Rozgałęzienia', link: '/pl/forks/' },
-              { text: 'Wspomóż', link: '/pl/docs/contribute' },
+              { text: 'Forki', link: '/pl/forks/' },
+              { text: 'Współpraca', link: '/pl/docs/contribute' },
             ],
           },
           {
@@ -819,7 +807,7 @@ const locales = {
           text: 'Obter #{app_version}',
           items: [
             { text: 'Baixar', link: '/pt/download/' },
-            { text: 'Registos de Mudanças', link: '/pt/changelogs/' },
+            { text: 'Registro de mudanças', link: '/pt/changelogs/' },
           ],
         },
         { text: 'Documentação', link: '/pt/docs/guides/getting-started' },
@@ -830,8 +818,8 @@ const locales = {
           {
             items: [
               { text: 'Baixar', link: '/pt/download/' },
-              { text: 'Registos de Mudanças', link: '/pt/changelogs/' },
-              { text: 'Bifurcações', link: '/pt/forks/' },
+              { text: 'Registro de mudanças', link: '/pt/changelogs/' },
+              { text: 'Forks', link: '/pt/forks/' },
               { text: 'Contribuir', link: '/pt/docs/contribute' },
             ],
           },
@@ -845,7 +833,7 @@ const locales = {
       },
     },
   },
-  ptBR: {
+  'pt-BR': {
     label: 'Portuguese, Brazilian',
     lang: 'pt-BR',
     themeConfig: {
@@ -854,19 +842,21 @@ const locales = {
           text: 'Obter #{app_version}',
           items: [
             { text: 'Baixar', link: '/pt-BR/download/' },
-            { text: 'Registros de Mudanças', link: '/pt-BR/changelogs/' },
+            { text: 'Registro de mudanças', link: '/pt-BR/changelogs/' },
           ],
         },
         { text: 'Documentação', link: '/pt-BR/docs/guides/getting-started' },
-        { text: 'Notícias', link: '/pt-BR/news/' },
+        { text: 'Notícias',
+
+ link: '/pt-BR/news/' },
       ],
       sidebar: {
         '/pt-BR/docs/': [
           {
             items: [
               { text: 'Baixar', link: '/pt-BR/download/' },
-              { text: 'Registros de Mudanças', link: '/pt-BR/changelogs/' },
-              { text: 'Bifurcações', link: '/pt-BR/forks/' },
+              { text: 'Registro de mudanças', link: '/pt-BR/changelogs/' },
+              { text: 'Forks', link: '/pt-BR/forks/' },
               { text: 'Contribuir', link: '/pt-BR/docs/contribute' },
             ],
           },
@@ -888,8 +878,8 @@ const locales = {
         {
           text: 'Obțineți #{app_version}',
           items: [
-            { text: 'Descărcare', link: '/ro/download/' },
-            { text: 'Jurnale de schimbări', link: '/ro/changelogs/' },
+            { text: 'Descarcă', link: '/ro/download/' },
+            { text: 'Logări schimbări', link: '/ro/changelogs/' },
           ],
         },
         { text: 'Documentație', link: '/ro/docs/guides/getting-started' },
@@ -899,10 +889,10 @@ const locales = {
         '/ro/docs/': [
           {
             items: [
-              { text: 'Descărcare', link: '/ro/download/' },
-              { text: 'Jurnale de schimbări', link: '/ro/changelogs/' },
-              { text: 'Furci', link: '/ro/forks/' },
-              { text: 'Contribui', link: '/ro/docs/contribute' },
+              { text: 'Descarcă', link: '/ro/download/' },
+              { text: 'Logări schimbări', link: '/ro/changelogs/' },
+              { text: 'Forks', link: '/ro/forks/' },
+              { text: 'Contribuie', link: '/ro/docs/contribute' },
             ],
           },
           {
@@ -923,20 +913,20 @@ const locales = {
         {
           text: 'Получить #{app_version}',
           items: [
-            { text: 'Скачать', link: '/ru/download/' },
-            { text: 'Изменения', link: '/ru/changelogs/' },
+            { text: 'Загрузить', link: '/ru/download/' },
+            { text: 'Журналы изменений', link: '/ru/changelogs/' },
           ],
         },
-        { text: 'Документация', link:'/ru/docs/guides/getting-started' },
+        { text: 'Документация', link: '/ru/docs/guides/getting-started' },
         { text: 'Новости', link: '/ru/news/' },
       ],
       sidebar: {
         '/ru/docs/': [
           {
             items: [
-              { text: 'Скачать', link: '/ru/download/' },
-              { text: 'Изменения', link: '/ru/changelogs/' },
-              { text: 'Форки', link: '/ru/forks/' },
+              { text: 'Загрузить', link: '/ru/download/' },
+              { text: 'Журналы изменений', link: '/ru/changelogs/' },
+              { text: 'Forks', link: '/ru/forks/' },
               { text: 'Внести вклад', link: '/ru/docs/contribute' },
             ],
           },
@@ -971,7 +961,7 @@ const locales = {
             items: [
               { text: 'Stiahnuť', link: '/sk/download/' },
               { text: 'Zmeny', link: '/sk/changelogs/' },
-              { text: 'Rozdvojenia', link: '/sk/forks/' },
+              { text: 'Forks', link: '/sk/forks/' },
               { text: 'Prispieť', link: '/sk/docs/contribute' },
             ],
           },
@@ -991,10 +981,10 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Pridobi #{app_version}',
+          text: 'Dobi #{app_version}',
           items: [
             { text: 'Prenesi', link: '/sl/download/' },
-            { text: 'Dnevniki sprememb', link: '/sl/changelogs/' },
+            { text: 'Dnevnik sprememb', link: '/sl/changelogs/' },
           ],
         },
         { text: 'Dokumentacija', link: '/sl/docs/guides/getting-started' },
@@ -1005,13 +995,13 @@ const locales = {
           {
             items: [
               { text: 'Prenesi', link: '/sl/download/' },
-              { text: 'Dnevniki sprememb', link: '/sl/changelogs/' },
-              { text: 'Razcepi', link: '/sl/forks/' },
-              { text: 'Prispevaj', link: '/sl/docs/contribute' },
+              { text: 'Dnevnik sprememb', link: '/sl/changelogs/' },
+              { text: 'Forks', link: '/sl/forks/' },
+              { text: 'Prispevajte', link: '/sl/docs/contribute' },
             ],
           },
           {
-            text: 'Vodniki',
+            text: 'Navodila',
             items: [
               { text: 'Uvod', link: '/sl/docs/guides/getting-started' },
             ],
@@ -1026,7 +1016,7 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Добијте #{app_version}',
+          text: 'Набавите #{app_version}',
           items: [
             { text: 'Преузимање', link: '/sr/download/' },
             { text: 'Дневници промена', link: '/sr/changelogs/' },
@@ -1041,8 +1031,8 @@ const locales = {
             items: [
               { text: 'Преузимање', link: '/sr/download/' },
               { text: 'Дневници промена', link: '/sr/changelogs/' },
-              { text: 'Форкови', link: '/sr/forks/' },
-              { text: 'Допринос', link: '/sr/docs/contribute' },
+              { text: 'Forks', link: '/sr/forks/' },
+              { text: 'Доприноси', link: '/sr/docs/contribute' },
             ],
           },
           {
@@ -1061,7 +1051,7 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: 'Hämta #{app_version}',
+          text: 'Få #{app_version}',
           items: [
             { text: 'Ladda ner', link: '/sv/download/' },
             { text: 'Ändringslogg', link: '/sv/changelogs/' },
@@ -1076,7 +1066,7 @@ const locales = {
             items: [
               { text: 'Ladda ner', link: '/sv/download/' },
               { text: 'Ändringslogg', link: '/sv/changelogs/' },
-              { text: 'Forkar', link: '/sv/forks/' },
+              { text: 'Forks', link: '/sv/forks/' },
               { text: 'Bidra', link: '/sv/docs/contribute' },
             ],
           },
@@ -1096,7 +1086,7 @@ const locales = {
     themeConfig: {
       nav: [
         {
-          text: '#{app_version} Edin',
+          text: 'Al #{app_version}',
           items: [
             { text: 'İndir', link: '/tr/download/' },
             { text: 'Değişiklik Günlükleri', link: '/tr/changelogs/' },
@@ -1111,7 +1101,7 @@ const locales = {
             items: [
               { text: 'İndir', link: '/tr/download/' },
               { text: 'Değişiklik Günlükleri', link: '/tr/changelogs/' },
-              { text: 'Çatallar', link: '/tr/forks/' },
+              { text: 'Forks', link: '/tr/forks/' },
               { text: 'Katkıda Bulun', link: '/tr/docs/contribute' },
             ],
           },
@@ -1146,12 +1136,12 @@ const locales = {
             items: [
               { text: 'Завантажити', link: '/uk/download/' },
               { text: 'Журнали змін', link: '/uk/changelogs/' },
-              { text: 'Відгалуження', link: '/uk/forks/' },
-              { text: 'Внести внесок', link: '/uk/docs/contribute' },
+              { text: 'Forks', link: '/uk/forks/' },
+              { text: 'Внести вклад', link: '/uk/docs/contribute' },
             ],
           },
           {
-            text: 'Посібники',
+            text: 'Керівництва',
             items: [
               { text: 'Вступ', link: '/uk/docs/guides/getting-started' },
             ],
@@ -1181,7 +1171,7 @@ const locales = {
             items: [
               { text: 'Tải xuống', link: '/vi/download/' },
               { text: 'Nhật ký thay đổi', link: '/vi/changelogs/' },
-              { text: 'Nhánh', link: '/vi/forks/' },
+              { text: 'Forks', link: '/vi/forks/' },
               { text: 'Đóng góp', link: '/vi/docs/contribute' },
             ],
           },
@@ -1189,76 +1179,6 @@ const locales = {
             text: 'Hướng dẫn',
             items: [
               { text: 'Giới thiệu', link: '/vi/docs/guides/getting-started' },
-            ],
-          },
-        ],
-      },
-    },
-  },
-  zh_CN: {
-    label: 'Chinese, Simplified',
-    lang: 'zh-CN',
-    themeConfig: {
-      nav: [
-        {
-          text: '获取 #{app_version}',
-          items: [
-            { text: '下载', link: '/zh-CN/download/' },
-            { text: '更新日志', link: '/zh-CN/changelogs/' },
-          ],
-        },
-        { text: '文档', link: '/zh-CN/docs/guides/getting-started' },
-        { text: '新闻', link: '/zh-CN/news/' },
-      ],
-      sidebar: {
-        '/zh-CN/docs/': [
-          {
-            items: [
-              { text: '下载', link: '/zh-CN/download/' },
-              { text: '更新日志', link: '/zh-CN/changelogs/' },
-              { text: '分支', link: '/zh-CN/forks/' },
-              { text: '贡献', link: '/zh-CN/docs/contribute' },
-            ],
-          },
-          {
-            text: '指南',
-            items: [
-              { text: '介绍', link: '/zh-CN/docs/guides/getting-started' },
-            ],
-          },
-        ],
-      },
-    },
-  },
-  zh_TW: {
-    label: 'Chinese, Traditional',
-    lang: 'zh-TW',
-    themeConfig: {
-      nav: [
-        {
-          text: '取得 #{app_version}',
-          items: [
-            { text: '下載', link: '/zh-TW/download/' },
-            { text: '更新日誌', link: '/zh-TW/changelogs/' },
-          ],
-        },
-        { text: '文件', link: '/zh-TW/docs/guides/getting-started' },
-        { text: '新聞', link: '/zh-TW/news/' },
-      ],
-      sidebar: {
-        '/zh-TW/docs/': [
-          {
-            items: [
-              { text: '下載', link: '/zh-TW/download/' },
-              { text: '更新日誌', link: '/zh-TW/changelogs/' },
-              { text: '分支', link: '/zh-TW/forks/' },
-              { text: '貢獻', link: '/zh-TW/docs/contribute' },
-            ],
-          },
-          {
-            text: '指南',
-            items: [
-              { text: '介紹', link: '/zh-TW/docs/guides/getting-started' },
             ],
           },
         ],
