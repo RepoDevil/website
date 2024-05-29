@@ -1,6 +1,6 @@
 ---
 title: Inicio
-layout: home
+layout: inicio
 hero:
   name: Himitsu
   tagline: Un secreto tan bueno que incluso el nombre está prohibido.
@@ -14,7 +14,7 @@ hero:
       link: /docs/guides/getting-started
     - theme: alt
       text: Descargar
-      link: /download/
+      link: /descargar/
 customMetaTitle: Himitsu
 features:
   - title: Seguimiento
