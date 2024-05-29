@@ -1,12 +1,12 @@
 
 const locales = {
-    root: {
-      label: 'English',
-      lang: 'en',
-      themeConfig: {
-        nav: [
-          {
-             text : 'Get #{app_version}',
+  root: {
+    label: 'English',
+    lang: 'en',
+    themeConfig: {
+      nav: [
+        {
+          text : 'Get #{app_version}',
           items: [
             { text: 'Download', link: '/download/' },
             { text: 'Changelogs', link: '/changelogs/' },
@@ -14,67 +14,68 @@ const locales = {
         },
         { text: 'Docs', link: '/docs/guides/getting-started' },
         { text: 'News', link: '/news/' },
-        ],
-        sidebar: {
-          '/docs/': [
-            {
-              items: [
-                {
-                  text: 'Download',
-                  link: '/download/',
-                },
-                {
-                  text: 'Changelogs',
-                  link: '/changelogs/',
-                },
-                {
-                  text: 'Forks',
-                  link: '/forks/',
-                },
-                {
-                  text: 'Contribute',
-                  link: '/docs/contribute',
-                },
-              ],
-            },
-            {
-            
-              text: 'Guides',
-              items: [
-                { text: 'Introduction', link: '/docs/guides/getting-started' },
-              ],
-            },
-          ],
-        },
-      },
-    },
-    es: {
-      label: 'Español',
-      lang: 'es',
-      themeConfig: {
-        nav: [
+      ],
+      sidebar: {
+        '/docs/': [
           {
-            text: 'Obtener #{app_version}',
             items: [
-              { text: 'Descargar', link: '/es/download/' },
-              { text: 'Registro de cambios', link: '/es/changelogs/' },
+              {
+                text: 'Download',
+                link: '/download/',
+              },
+              {
+                text: 'Changelogs',
+                link: '/changelogs/',
+              },
+              {
+                text: 'Forks',
+                link: '/forks/',
+              },
+              {
+                text: 'Contribute',
+                link: '/docs/contribute',
+              },
             ],
           },
-          { text: 'Docs', link: '/es/docs/guides/getting-started' },
-          { text: 'Noticias', link: '/es/news/' },
+          {
+
+            text: 'Guides',
+            items: [
+              { text: 'Introduction', link: '/docs/guides/getting-started' },
+            ],
+          },
         ],
-        sidebar: {
-          '/es/docs/': [
-            {
-              text: 'Guías',
-              items: [
-                { text: 'Introducción', link: '/es/docs/guides/getting-started' },
-              ],
-            },
-          ],
-        },
       },
     },
+  },
+  es: {
+    label: 'Español',
+    lang: 'es',
+    themeConfig: {
+      nav: [
+        {
+          text: 'Obtener #{app_version}',
+          items: [
+            { text: 'Descargar', link: '/es/download/' },
+            { text: 'Registro de cambios', link: '/es/changelogs/' },
+          ],
+        },
+        { text: 'Docs', link: '/es/docs/guides/getting-started' },
+        { text: 'Noticias', link: '/es/news/' },
+      ],
+      sidebar: {
+        '/es/docs/': [
+          {
+            text: 'Guías',
+            items: [
+              { text: 'Introducción', link: '/es/docs/guides/getting-started' },
+            ],
+          },
+        ],
+      },
+    },
+  },
+  af: {
     label: 'Afrikaans',
     lang: 'af',
     themeConfig: {
@@ -418,7 +419,7 @@ const locales = {
             text: 'Oppaat',
             items: [
               { text: 'Johdanto', link: '/fi/docs/guides/getting-started' },
-                ],
+            ],
           },
         ],
       },
@@ -774,7 +775,8 @@ const locales = {
       },
     },
   },
-  pl: {label: 'Polish',
+  pl: {
+    label: 'Polish',
     lang: 'pl',
     themeConfig: {
       nav: [
@@ -1113,7 +1115,8 @@ const locales = {
               { text: 'Katkıda Bulun', link: '/tr/docs/contribute' },
             ],
           },
-          {text: 'Kılavuzlar',
+          {
+            text: 'Kılavuzlar',
             items: [
               { text: 'Giriş', link: '/tr/docs/guides/getting-started' },
             ],
@@ -1256,7 +1259,7 @@ const locales = {
             text: '指南',
             items: [
               { text: '介紹', link: '/zh-TW/docs/guides/getting-started' },
-],
+            ],
           },
         ],
       },
@@ -1264,4 +1267,4 @@ const locales = {
   },
 };
 
- export default locales;
+export default locales;
