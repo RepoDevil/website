@@ -4,22 +4,12 @@ import { defineConfig, loadEnv } from 'vitepress'
 import ElementPlus from 'unplugin-element-plus/vite'
 
 import markdownConfig from './config/markdownConfig'
-
-// For use with loading Markdown plugins
 import themeConfig from './config/themeConfig'
-
-// Theme related config
 import headConfig from './config/headConfig'
-
-// Provides how to generate Meta head tags
-
 import generateMeta from './config/hooks/generateMeta'
-
-// Enhanced meta generation
 import generateFeed from './config/hooks/generateFeed'
-
-// Allows generation of RSS feed
 import generateOgImages from './config/hooks/generateOgImages'
+import localesConfig from './config/locales'
 
 const title = 'Himitsu'
 const description = 'A secret so good that even the name is banned.'
@@ -28,17 +18,7 @@ const env = loadEnv('', process.cwd())
 const hostname: string = env.VITE_HOSTNAME || 'http://localhost:4173'
 
 export default defineConfig({
-  locales: {
-    root: {
-      label: 'English (US)',
-      lang: 'en',
-    },
-    es_ES: {
-      label: 'Spanish (ES)',
-      lang: 'es_ES',
-      link: 'es_ES/',
-    }
-  },
+  locales: localesConfig,
   outDir: '../dist',
   lastUpdated: true,
   cleanUrls: true,

@@ -1,8 +1,5 @@
 import type { DefaultTheme } from 'vitepress'
 
-import nav from './navigation/navbar'
-import sidebar from './navigation/sidebar'
-
 const themeConfig: DefaultTheme.Config = {
   logo: {
     src: '/img/logo-128px.png',
@@ -10,12 +7,6 @@ const themeConfig: DefaultTheme.Config = {
     height: 24,
   },
 
-  // Reference the nav object based on the locale
-  nav: nav['/'], // Default to English navigation
-
-  sidebar,
-
-  outline: [2, 3],
 
   // Some icons from https://github.com/vuejs/vitepress/issues/1214
   socialLinks: [
