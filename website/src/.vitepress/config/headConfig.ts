@@ -45,7 +45,7 @@ const headConfig: HeadConfig[] = [
     'meta',
     {
       property: 'og:description',
-      content: 'The Best Anime & Manga app for Android.',
+      content: 'A secret so good that even the name is banned.',
     },
   ],
   ['meta', { property: 'og:locale', content: 'en_US' }],

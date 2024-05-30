@@ -67,7 +67,7 @@ function handleAnalytics(type: 'beta' | 'stable') {
       >
         <IconDownload />
         <span class="text">Himitsu</span>
-        <span class="version">#{{ downloadInformation.stable.tagName }}</span>
+        <span class="version">{{ downloadInformation.stable.tagName }}</span>
       </a>
       <a
         class="download-button secondary"
@@ -77,7 +77,7 @@ function handleAnalytics(type: 'beta' | 'stable') {
       >
         <IconBugReport />
         <span class="text">Himitsu</span>
-        <span class="version">#{{ downloadInformation.beta.tagName }} ㊙</span>
+        <span class="version">㊙ {{ downloadInformation.beta.tagName }} ㊙</span>
       </a>
     </div>
     <span class="version-disclaimer">

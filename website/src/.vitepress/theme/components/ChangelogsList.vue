@@ -33,7 +33,7 @@ const dateFormatter = new Intl.DateTimeFormat('en', {
         :href="release.html_url"
         target="_blank"
       >
-        {{ release.tag_name.substring(1) }}
+        {{ release.tag_name }}
       </a>
       <Badge v-if="index === 0" type="tip" text="Latest" />
       <a
