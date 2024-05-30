@@ -54,7 +54,7 @@ const themeConfig: DefaultTheme.Config = {
     options: {
       appId: 'CJ8AS3KMFP',
       apiKey: 'e13112f75d9657fd139cc2cbcec01578',
-      indexName: 'himitsu',
+      indexName: 'netlify_1b16a6f5-923b-4aa2-9700-54a65eda3fa3_main_all',
     },
   },
 }
