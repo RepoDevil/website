@@ -28,7 +28,7 @@ const nav = computed(() => {
     if (!item.text.includes('{app_version}'))
       return item
 
-    const appVersion = release.stable.tag_name.substring(1)
+    const appVersion = release.stable.tag_name
 
     return {
       ...item,
