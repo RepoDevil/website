@@ -10,3 +10,37 @@
 /help/guides/reader-settings/        /docs/guides/reader-settings        301
 /help/contribution/                  /docs/contribute                    301
 /help/faq/                           /docs/faq/general                   301
+
+#languages 
+
+/*  /af/:splat  302  Language=af
+/*  /ar/:splat  302  Language=ar
+/*  /as/:splat  302  Language=as
+/*  /ca/:splat  302  Language=ca
+/*  /zh-Hans/:splat  302  Language=zh-Hans
+/*  /zh-Hant/:splat  302  Language=zh-Hant
+/*  /cs/:splat  302  Language=cs
+/*  /da/:splat  302  Language=da
+/*  /nl/:splat  302  Language=nl
+/*  /fi/:splat  302  Language=fi
+/*  /fr/:splat  302  Language=fr
+/*  /de/:splat  302  Language=de
+/*  /el/:splat  302  Language=el
+/*  /he/:splat  302  Language=he
+/*  /hi/:splat  302  Language=hi
+/*  /hu/:splat  302  Language=hu
+/*  /it/:splat  302  Language=it
+/*  /ja/:splat  302  Language=ja
+/*  /ko/:splat  302  Language=ko
+/*  /no/:splat  302  Language=no
+/*  /pl/:splat  302  Language=pl
+/*  /pt/:splat  302  Language=pt
+/*  /pt-BR/:splat  302  Language=pt-BR
+/*  /ro/:splat  302  Language=ro
+/*  /ru/:splat  302  Language=ru
+/*  /sr-Cyrl/:splat  302  Language=sr-Cyrl
+/*  /es/:splat  302  Language=es
+/*  /sv/:splat  302  Language=sv
+/*  /tr/:splat  302  Language=tr
+/*  /uk/:splat  302  Language=uk
+/*  /vi/:splat  302  Language=vi
