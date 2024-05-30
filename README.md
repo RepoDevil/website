@@ -20,18 +20,14 @@
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-If you got any questions, [join our Discord server](https://discord.gg/vnrhgrt).
-
-### Repositories
-
-[[GitLab]](https://gitlab.com/RepoDevil/himitsu)
+If you have any questions, [join our Discord server](https://discord.gg/vnrhgrt).
 
 ### Credits
 
 Thank you to all the people who have contributed!
 
-<a href="https://github.com/mihonapp/website/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=mihonapp/website" alt="Mihon website contributors" title="Mihon website contributors" width="600"/>
+<a href="https://github.com/RepoDevil/website/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=RepoDevil/website" alt="Himitsu (and Mihon) website contributors" title="Himitsu (and Mihon) website contributors" width="600"/>
 </a>
 
 ### Disclaimer
@@ -47,5 +43,10 @@ This Source Code Form is subject to the terms of the Mozilla Public
 License, v. 2.0. If a copy of the MPL was not distributed with this
 file, You can obtain one at http://mozilla.org/MPL/2.0/.
 </pre>
+
+<p>
+  <img src="https://count.getloli.com/get/@:repodevildantotsu" alt=":repodevildantotsu" />
+</p>
+
 
 </div>
