@@ -50,8 +50,13 @@ const themeConfig: DefaultTheme.Config = {
   },
 
   search: {
-    provider: 'local',
+    provider: 'algolia',
+    options: {
+      appId: 'CJ8AS3KMFP',
+      apiKey: 'e13112f75d9657fd139cc2cbcec01578',
+      indexName: 'himitsu',
     },
-  }
+  },
+}
 
 export default themeConfig
