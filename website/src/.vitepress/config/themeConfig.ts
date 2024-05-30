@@ -50,7 +50,7 @@ const themeConfig: DefaultTheme.Config = {
   },
 
   search: {
-    provider: 'locale',
+    provider: 'local',
     },
   }
 
