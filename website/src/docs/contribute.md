@@ -9,7 +9,7 @@ Find out how to help build the app.
 ## Code
 Know how to code and want to improve something or you generally want to support the creation of the app?
 
-[![RepoDevil/Himitsu - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=RepoDevil&repoHimitsu&bg_color=f6f6f7&title_color=0877d2&icon_color=0877d2&border_radius=8&hide_border=false#light "RepoDevil/Himitsu - GitHub" =400x120)](https://github.com/RepoDevil/Himitsu)
+[![RepoDevil/Himitsu - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=RepoDevil&repo=Himitsu&bg_color=f6f6f7&title_color=0877d2&icon_color=0877d2&border_radius=8&hide_border=false#light "RepoDevil/Himitsu - GitHub" =400x120)](https://github.com/RepoDevil/Himitsu)
 
 [![RepoDevil/website - GitHub](https://github-readme-stats.vercel.app/api/pin/?username=RepoDevil&repo=website&bg_color=1a1a41&text_color=c9d1d9&title_color=0877d2&icon_color=0877d2&border_radius=8&hide_border=true#dark "RepoDevil/website - GitHub" =400x120)](https://github.com/RepoDevil/website)
 
