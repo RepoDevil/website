@@ -32,7 +32,7 @@ const themeConfig: DefaultTheme.Config = {
 
   footer: {
     message: '<a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Open-source Apache Licensed</a> <span class="divider">|</span> <a href="/privacy/">Privacy policy</a>',
-    copyright: `Copyright © ${new Date().getFullYear()} Himitsu`,
+    copyright: `Copyright © ${new Date().getFullYear()} RepoDevil. Website provided by <a href="https://github.com/mihonapp/website" target="_blank">Mihon</a>`,
   },
 
   editLink: {
