@@ -7,6 +7,7 @@ import markdownConfig from './config/markdownConfig'
 import themeConfig from './config/themeConfig'
 import headConfig from './config/headConfig'
 import generateMeta from './config/hooks/generateMeta'
+import generateFeed from './config/hooks/generateFeed'
 import generateOgImages from './config/hooks/generateOgImages'
 import localesConfig from './config/locales'
 
@@ -31,6 +32,7 @@ export default defineConfig({
   themeConfig,
   transformHead: async context => generateMeta(context, hostname),
   buildEnd: async (context) => {
+    generateFeed(context, hostname)
     generateOgImages(context)
   },
   vite: {
