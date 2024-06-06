@@ -7,7 +7,7 @@ const md = new MarkdownIt()
 
 function renderMarkdown(string: string | null | undefined) {
   const body = string ?? 'No changelog provided.'
-  const flavoredString = body
+  const flavoredString = body.replaceAll("\n", "\n\n")
     .split(/---\r\n\r\n### Checksums|---\r\n\r\nMD5/)[0]
     .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, '[@$2](https://github.com/$2)')
     .replace(/#(\d+)/g, '[#$1](https://github.com/RepoDevil/Himitsu/issues/$1)')

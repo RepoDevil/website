@@ -10,7 +10,7 @@ const { type } = toRefs(props)
 const md = new MarkdownIt()
 
 const changelog = computed(() => {
-  const flavoredString = (release[type.value].body ?? '')
+  const flavoredString = (release[type.value].body ?? '').replaceAll("\n", "\n\n")
     .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, '[@$2](https://github.com/$2)')
     .replace('https://github.com/RepoDevil/Himitsu/releases', '/changelogs/')
 
